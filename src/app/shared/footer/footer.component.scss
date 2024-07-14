@@ -1,0 +1,73 @@
+@use '../../../styles.scss' as f;
+
+
+
+
+footer {
+    @include f.flex(center, start);
+
+    .footer {
+        @include f.flex(center, center);
+        flex-direction: column;
+        color: white;
+        width: 100%;
+
+
+        >hr {
+            align-self: center;
+            width: 100%;
+        }
+
+
+        >section {
+            @include f.flex(center);
+            width: 100%;
+            max-width: f.$maxWidth;
+            padding: 36px 0;
+
+            >div {
+                @include f.flex(space-between, center);
+                width: 100%;
+
+                >a {
+                    >img {
+                        width: 250px;
+                        height: 65px;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-links {
+    @include f.flex(center);
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 24px;
+
+    >div {
+        @include f.flex(space-evenly);
+        width: calc(100% + 48px);
+
+        >a {
+            color: white;
+        }
+
+        >a:hover {
+            transform: scale(1.15);
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .footer {
+        >section>div {
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+}

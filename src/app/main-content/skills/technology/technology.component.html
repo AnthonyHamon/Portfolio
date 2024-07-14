@@ -1,0 +1,7 @@
+<div class="technology-link">
+    <a href="{{technology.link}}" target="_blank">
+        <img (mouseenter)="animateTechnologyLink()" [@rubberBand]='animationState'
+            src="../../../assets/icons/{{technology.image}}" alt="">
+        <span>{{technology.name}}</span>
+    </a>
+</div>

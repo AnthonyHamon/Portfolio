@@ -1,0 +1,55 @@
+@use '../../../../styles.scss' as f;
+@use '../../../app.component.scss' as shadow;
+
+main {
+    @include f.flex(center, start)
+}
+
+.social-links-ctn {
+    @include f.flex(start);
+    background-color: rgb(244, 244, 246);
+    @include shadow.top-shadow();
+
+    width: 100%;
+    gap: 42px;
+    position: absolute;
+    max-width: f.$maxWidth;
+
+    >hr {
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        width: 80px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+    .social-links {
+        @include f.flex(start);
+        padding: 12px;
+        gap: 42px;
+
+        >a {
+            @include f.flex(start);
+            color: black;
+
+            >img:hover {
+                transition: all .225s ease-in-out;
+                transform: scale(1.15);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #email-adress{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .social-links-ctn{
+        gap: 24px;
+    }
+}

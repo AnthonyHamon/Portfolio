@@ -1,0 +1,212 @@
+{
+  "headerComponent": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "landingPageComponent": {
+    "I": "I'm",
+    "ambitionedDeveloper": "ambitioned developer!",
+    "getInTouch": "Get in Touch!"
+  },
+  "aboutMeComponent": {
+    "aboutMe": "About me",
+    "description": "Hi! I'm a Front-end developer living in Jüchen, Germany. I love to bring ideas and vision to life, with precision and passion. Coding grows continuously and I'm looking forward to continue growing with it, with a Junior developer job position.",
+    "developing": "Developing is building, and I love it. Being it virtual or in real, I do my best to build everything the best possible way and I feel always proud to see a project growing and look at the final result.",
+    "interests": "I have a lot of interests! Read, take a walk, playing games (board and video games), just discuss about the world. I love activities making me thinking. I make sport and I'm always happy to be with my family. And naturally, I love coding!"
+  },
+  "skillsComponent": {
+    "mySkills": "My Skills",
+    "skillsDescription": "I have built projects with diverse front-end technologies and concepts, gaining valuable experience.",
+    "contactButton": "let's have a talk"
+  },
+  "languagesComponent": {
+    "spokenLanguages": "Spoken Languages",
+    "english": "English",
+    "german": "German",
+    "french": "French"
+  },
+  "portfolioComponent": {
+    "myWork": "My Work"
+  },
+  "projectComponent": {
+    "liveTestLink": "Live Test",
+    "fantasiaAdventureDescription": "A 2D Platform, jump and run adventure game mainly based on JavaScript and OOP. Be a Hero, collect items, beat all creatures and defeat the Boss using differents skills and save the World!",
+    "joinDescription": "Log in and use this task manager app inspired by the Kanban System. Create, update and deletes your tasks. Assign them to users and organize your project between categories and status",
+    "pokedexDescription": "A library for all Pokémons. Obtain many Informations about the Pocket Monsters or search for a specific one. Based ond the PokéAPI",
+    "portfolioDescription": "A simple one Page portfolio to introduce myself and share my projects to potential client / company / recruiter."
+  },
+  "contactComponent": {
+    "getInTouch": "GET IN TOUCH",
+    "contact": "Contact",
+    "yourName": "Your Name",
+    "namePlaceholder": "What's your name?",
+    "nameValidation": "Please tell me who you are",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "What's your email",
+    "emailValidation": "Please enter a valid Email address",
+    "yourMessage": "Your Message",
+    "messagePlaceholder": "What's your message?",
+    "messageValidation": "Your message is missing, please fill it out!",
+    "isRead": "I've read the",
+    "privacyPolicy": "privacy policy",
+    "acceptPrivacyPolicy": "and agree to the processing of my data as outlined.",
+    "privacyValidation": "Please accept the privacy policy to send your message.",
+    "sendButton": "SEND"
+  },
+  "userFeedback": {
+    "messageSent": "your message was sent successfully",
+    "messageError": "your message couldn't be sent, please try again"
+  },
+  "IMPRINT": {
+    "imprint": "Imprint",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "source": "Source"
+  },
+  "PRIVACY_POLICY": {
+    "title": "Privacy Policy",
+    "section1": {
+      "title": "1. Data protection at a glance",
+      "generalInfo": {
+        "title": "General information",
+        "description": "The following gives a simple overview of what happens to your personal data when you visit this website. Personal data is any data with which you could be personally identified. Detailed information on the subject of data protection can be found in our privacy policy listed below this text."
+      },
+      "dataCollection": {
+        "title": "Data collection on this website",
+        "responsible": {
+          "title": "Who is responsible for data collection on this website?",
+          "description": "The data processing on this website is carried out by the website operator. The operator's contact details can be found in the \"Note on the responsible entity\" section of this privacy policy."
+        },
+        "howCollect": {
+          "title": "How do we collect your data?",
+          "description1": "Your data is collected in part by you providing it directly. This could, for example, be data you enter on a contact form.",
+          "description2": "Other data is collected automatically or after your consent when you visit the website by our IT systems. These are mainly technical data (e.g., internet browser, operating system, or time of page access). The collection of this data occurs automatically as soon as you enter this website."
+        },
+        "useOfData": {
+          "title": "What do we use your data for?",
+          "description": "Some of the data is collected to ensure the proper functioning of the website. Other data can be used to analyze how visitors use the site."
+        },
+        "rights": {
+          "title": "What rights do you have regarding your data?",
+          "description1": "You always have the right to receive information free of charge about the origin, recipient, and purpose of your stored personal data. You also have a right to request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time for the future. Furthermore, you have the right to request the restriction of the processing of your personal data under certain circumstances. You also have a right to lodge a complaint with the competent supervisory authority.",
+          "description2": "For these and other questions about data protection, you can contact us at any time."
+        }
+      },
+      "analysisTools": {
+        "title": "Analysis tools and third-party tools",
+        "description1": "When you visit this website, your surfing behavior can be statistically evaluated. This happens primarily with analytics programs.",
+        "description2": "Detailed information on these analytics programs can be found in the following privacy policy."
+      }
+    },
+    "section2": {
+      "title": "2. Hosting",
+      "hostingInfo": {
+        "description": "We host the content of our website with the following provider:",
+        "provider": {
+          "title": "IONOS",
+          "details": "The provider is IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (hereinafter IONOS). When you visit our website, IONOS collects various log files, including your IP addresses. Details can be found in the IONOS privacy policy:"
+        },
+        "legalBasis": {
+          "description": "The use of IONOS is based on Art. 6(1)(f) GDPR. We have a legitimate interest in a reliable presentation of our website. If a corresponding consent has been requested, processing is carried out exclusively on the basis of Art. 6(1)(a) GDPR and § 25(1) TDDDG, insofar as the consent includes the storage of cookies or access to information on the user's device (e.g., device fingerprinting) according to the TDDDG. The consent can be revoked at any time."
+        },
+        "dataProcessingAgreement": {
+          "title": "Data processing agreement",
+          "description": "We have concluded a contract for order processing (AVV) for the use of the above-mentioned service. This is a data protection contract required by law, which ensures that the service processes the personal data of our website visitors only according to our instructions and in compliance with the GDPR."
+        }
+      }
+    },
+    "section3": {
+      "title": "3. General notes and mandatory information",
+      "dataProtection": {
+        "title": "Data protection",
+        "description1": "The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the legal data protection regulations and this privacy policy.",
+        "description2": "If you use this website, various personal data will be collected. Personal data is data with which you can be personally identified. This privacy policy explains what data we collect and what we use it for. It also explains how and for what purpose this happens.",
+        "description3": "We point out that data transmission over the Internet (e.g., communication by e-mail) can have security vulnerabilities. A complete protection of data against access by third parties is not possible."
+      },
+      "responsibleEntity": {
+        "title": "Note on the responsible entity",
+        "description1": "The responsible entity for data processing on this website is:",
+        "contactDetails": "Anthony Hamon<br />Wickratherstr. 62<br />41363 Jüchen<br />Phone: 017672373759<br />Email: contact&#64;anthony-hamon.com",
+        "description2": "The responsible entity is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data (e.g., names, e-mail addresses, etc.)."
+      },
+      "storagePeriod": {
+        "title": "Storage period",
+        "description": "Unless a specific storage period has been specified within this privacy policy, your personal data will remain with us until the purpose for processing the data no longer applies. If you make a legitimate request for deletion or withdraw your consent to data processing, your data will be deleted, provided we have no other legally permissible reasons for storing your personal data (e.g., tax or commercial retention periods); in the latter case, the deletion will take place after these reasons cease to apply."
+      },
+      "dataProcessingLegalBases": {
+        "title": "General information on data processing legal bases on this website",
+        "description": "If you have given your consent to the processing of your data, we will process your personal data on the basis of Art. 6(1)(a) GDPR or Art. 9(2)(a) GDPR if special categories of data are processed under Art. 9(1) GDPR. In case of an explicit consent to transfer personal data to third countries, the data processing is also based on Art. 49(1)(a) GDPR. If you have consented to the storage of cookies or access to information on your device (e.g., via device fingerprinting), the processing of data is additionally based on § 25(1) TDDDG. The consent can be revoked at any time. If your data is required for the performance of a contract or for pre-contractual measures, we will process your data based on Art. 6(1)(b) GDPR. Furthermore, we process your data if necessary to fulfill a legal obligation based on Art. 6(1)(c) GDPR. Data processing may also be based on our legitimate interest under Art. 6(1)(f) GDPR. Relevant legal bases are mentioned in the respective paragraphs of this privacy policy on a case-by-case basis."
+      },
+      "recipientsOfPersonalData": {
+        "title": "Recipients of personal data",
+        "description": "In the course of our business activities, we work with various external entities. Sometimes it is necessary to transfer personal data to these external entities. We only pass on personal data to external entities if this is necessary within the scope of contract fulfillment, if we are legally obliged to do so (e.g., disclosure to tax authorities), if we have a legitimate interest pursuant to Art. 6(1)(f) GDPR in the transfer, or if another legal basis allows the transfer of data. When using processors, we only pass on personal data of our customers based on a valid contract for order processing. In the case of joint processing, a contract for joint processing is concluded."
+      },
+      "withdrawalOfConsent": {
+        "title": "Withdrawal of your consent to data processing",
+        "description": "Many data processing operations are only possible with your express consent. You can withdraw consent you have already given at any time. The legality of the data processing carried out until the withdrawal remains unaffected by the withdrawal."
+      },
+      "rightToObject": {
+        "title": "Right to object to data collection in special cases and to direct advertising (Art. 21 GDPR)",
+        "description1": "If data processing is based on Art. 6(1)(e) or (f) GDPR, you have the right at any time to object, for reasons arising from your particular situation, to the processing of your personal data; this also applies to profiling based on these provisions. The respective legal basis on which processing is based can be found in this privacy policy. If you object, we will no longer process your affected personal data unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights, and freedoms or the processing serves to assert, exercise, or defend legal claims (objection pursuant to Art. 21(1) GDPR).",
+        "description2": "If your personal data is processed for direct marketing purposes, you have the right to object at any time to the processing of your personal data for the purpose of such advertising; this also applies to profiling, insofar as it is associated with such direct advertising. If you object, your personal data will subsequently no longer be used for direct marketing purposes (objection pursuant to Art. 21(2) GDPR)."
+      },
+      "rightToLodgeComplaint": {
+        "title": "Right to lodge a complaint with the competent supervisory authority",
+        "description": "In the event of violations of the GDPR, data subjects have the right to lodge a complaint with a supervisory authority, in particular in the Member State of their habitual residence, place of work, or place of the alleged violation. The right to lodge a complaint is without prejudice to other administrative or judicial remedies."
+      },
+      "rightToDataPortability": {
+        "title": "Right to data portability",
+        "description": "You have the right to have data that we process automatically on the basis of your consent or in fulfillment of a contract handed over to you or to a third party in a common, machine-readable format. If you request the direct transfer of the data to another responsible party, this will only be done to the extent technically feasible."
+      },
+      "sslTlsEncryption": {
+        "title": "SSL or TLS encryption",
+        "description": "This site uses SSL or TLS encryption for security reasons and for the protection of the transmission of confidential content, such as orders or inquiries that you send to us as the site operator. You can recognize an encrypted connection in your browser's address line when it changes from \"http://\" to \"https://\" and the lock icon is displayed in your browser's address bar. If SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties."
+      },
+      "informationCorrectionDeletion": {
+        "title": "Information, correction, and deletion",
+        "description": "Within the scope of the applicable legal provisions, you have the right to obtain information free of charge at any time about your stored personal data, its origin and recipients, and the purpose of data processing and, if applicable, a right to correct or delete this data. For this purpose, as well as for further questions regarding personal data, you can contact us at any time at the address given in the legal notice."
+      },
+      "rightToRestriction": {
+        "title": "Right to restriction of processing",
+        "description1": "You have the right to request the restriction of the processing of your personal data. You can contact us at any time at the address given in the legal notice. The right to restrict processing exists in the following cases:",
+        "list": {
+          "1":"If you dispute the accuracy of your personal data stored with us, we usually need time to verify this. For the duration of the verification process, you have the right to request the restriction of the processing of your personal data.",
+          "2":"If the processing of your personal data was/is carried out unlawfully, you can request the restriction of data processing instead of deletion.",
+          "3":"If we no longer need your personal data, but you need it to exercise, defend, or assert legal claims, you have the right to request the restriction of the processing of your personal data instead of deletion.",
+          "4":"If you have lodged an objection pursuant to Art. 21(1) GDPR, a balance must be struck between your interests and ours. As long as it has not yet been determined whose interests prevail, you have the right to request the restriction of the processing of your personal data."
+        },
+        "description2": "If you have restricted the processing of your personal data, this data – apart from its storage – may only be processed with your consent or for the assertion, exercise, or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the European Union or a Member State."
+      },
+      "oppositionToAdvertisingEmails": {
+        "title": "Opposition to advertising emails",
+        "description": "The use of contact data published within the scope of the legal notice obligation for the transmission of not expressly requested advertising and information material is hereby objected to. The operators of the website expressly reserve the right to take legal action in the event of unsolicited sending of advertising information, such as spam e-mails."
+      }
+    },
+    "section4": {
+      "title": "4. Data collection on this website",
+      "cookies": {
+        "title": "Cookies",
+        "description1": "Some of the websites use so-called cookies. Cookies do not harm your computer and do not contain any viruses. Cookies serve to make our offer more user-friendly, effective, and secure. Cookies are small text files that are stored on your computer and saved by your browser.",
+        "description2": "Most of the cookies we use are so-called 'session cookies.' They are automatically deleted after your visit. Other cookies remain stored on your device until you delete them. These cookies enable us to recognize your browser the next time you visit.",
+        "description3": "You can set your browser so that you are informed about the setting of cookies and only allow cookies in individual cases, exclude the acceptance of cookies for certain cases or generally, and activate the automatic deletion of cookies when closing the browser. When cookies are deactivated, the functionality of this website may be limited.",
+        "description4": "Cookies that are required to carry out the electronic communication process or to provide certain functions you wish to use (e.g., shopping cart function) are stored on the basis of Art. 6(1)(f) GDPR. The website operator has a legitimate interest in storing cookies for the technically error-free and optimized provision of its services. Insofar as other cookies (e.g., cookies for analyzing your surfing behavior) are stored, these are treated separately in this privacy policy."
+      },
+      "serverLogFiles": {
+        "title": "Server log files",
+        "description1": "The website provider automatically collects and stores information in server log files that your browser automatically transmits to us. These are:",
+        "list": {
+          "1":"Browser type and browser version",
+          "2":"Operating system used",
+          "3":"Referrer URL",
+          "4":"Host name of the accessing computer",
+          "5":"Time of the server request",
+          "6":"IP address"
+        },
+        "description2": "These data will not be combined with data from other sources. The basis for data processing is Art. 6(1)(f) GDPR, which allows the processing of data for the performance of a contract or pre-contractual measures."
+      }
+    }
+  }
+}

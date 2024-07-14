@@ -1,0 +1,28 @@
+<main class="about-me-section">
+    <app-social-links-bar></app-social-links-bar>
+    <section>
+        <img src="./assets/img/profil.png" alt="">
+        <div [ngClass]="currentLanguage" class="about-me">
+            <h2>{{ "aboutMeComponent.aboutMe" | translate }}</h2>
+            <div [ngClass]="currentLanguage">
+                <p>{{ "aboutMeComponent.description" | translate }}</p>
+                <div class="more-about-me">
+                    <div>
+                        <div class="about-me-icon-ctn">
+                            <img src="./assets/icons/code-icon.png" alt="">
+                        </div>
+                        <p>{{ "aboutMeComponent.developing" | translate }}</p>
+                    </div>
+                    <div>
+                        <div class="about-me-icon-ctn">
+                            <img src="./assets/icons/chess-knight-icon.png" alt="">
+                        </div>
+                        <p>{{ "aboutMeComponent.interests" | translate }}<p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>

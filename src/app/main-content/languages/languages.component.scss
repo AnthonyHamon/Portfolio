@@ -1,0 +1,68 @@
+@use '../../../styles.scss' as f;
+
+main {
+    @include f.flex(center, start);
+    height: 50vh;
+    width: 100%;
+    color: white;
+    margin-top: 24px;
+
+
+    >section {
+        @include f.flex(start, stretch);
+        flex-direction: column;
+        gap: 24px;
+        padding: 0 54px;
+        width: 70%;
+        max-width: f.$maxWidth;
+
+        >h2 {
+            font-size: 90px;
+        }
+
+        >div {
+            @include f.flex(center, stretch);
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+}
+
+
+@media screen and (max-width:1440px) {
+    main {
+        >section {
+            width: 100%;
+        }
+    }
+}
+
+
+@media screen and (max-width:680px) {
+    main {
+        margin-top: 54px;
+
+        >section {
+            width: 100%;
+            padding: 0 20px;
+
+            >h2 {
+                font-size: 45px;
+            }
+        }
+
+        >section.fr, section.de{
+            padding: 0 20px;
+        }
+    }
+}
+
+@media screen and (max-width:350px){
+    main{
+        >section{
+            >h2.fr, h2.de{
+                font-size: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+@use '../../app.component.scss' as shadow;
+@use '../../../styles.scss' as f;
+
+
+.contact {
+    @include shadow.top-shadow(#141414);
+    @include f.flex(center);
+    position: relative;
+
+    >section {
+        @include f.flex(start);
+        width: 90%;
+        padding: 54px 0;
+        max-width: f.$maxWidth;
+        position: relative;
+
+        >form {
+            @include f.flex(space-between, start);
+            flex-direction: column;
+            gap: 16px;
+            padding: 28px;
+            background-color: #292929;
+            border-radius: 24px;
+            color: white;
+            flex-grow: 0.25;
+            min-height: 800px;
+            max-height: 800px;
+
+
+            >section {
+                @include f.flex(space-between, start);
+                flex-direction: column;
+                width: 100%;
+                min-height: 670px;
+                width: 100%;
+
+                >div {
+                    >span {
+                        font-size: 24px;
+                    }
+
+                    >h3 {
+                        font-size: 90px;
+                    }
+
+                    .validation-ctn {
+                        font-size: 14px;
+                        color: red;
+                        margin-top: -8px
+                    }
+                }
+            }
+        }
+    }
+
+    .inputs {
+        @include f.flex(start, start);
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+        padding: 8px;
+        border-radius: 8px;
+        border-style: none;
+        outline: none;
+        color: white;
+
+        >input,
+        textarea {
+            @include f.flex(center);
+            width: 100%;
+            padding: 16px 24px;
+            border-radius: 8px;
+            border-style: none;
+            background-color: #1F1F1F;
+            outline: none;
+            color: white;
+        }
+
+        >textarea {
+            resize: none;
+            overflow: auto;
+            min-height: 150px;
+            font-family: poppins;
+        }
+    }
+
+    .invisible-scrollbar::-webkit-scrollbar {
+        display: none
+    }
+
+
+    button {
+        @include f.flex(center);
+        border-radius: 8px;
+        background-color: #141414;
+        color: white;
+        outline: none;
+        border-style: none;
+        font-size: 18px;
+        margin-left: 16px;
+        width: 130px;
+        height: 50px;
+
+        >img {
+            width: 26px;
+            margin: 4px 0 0 8px;
+        }
+
+        &:hover ,:enabled {
+            cursor: pointer;
+            transition: all .225s ease-in-out;
+            background-color: grey;
+        }
+
+        &:disabled{
+            cursor: not-allowed;
+            background-color: #141414;
+        }
+    }
+
+    .back-to-top-arrow{
+        position: absolute;
+        bottom: 54px;
+        right: 72px;
+        >img{
+            width: 72px;
+        }
+
+    }
+}
+
+.privacy-policy-check-ctn {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+
+    >div {
+        display: flex;
+        gap: 16px;
+
+        input {
+            cursor: pointer;
+        }
+
+        >p {
+            font-size: 14px;
+
+            >a {
+                color: red;
+            }
+        }
+    }
+
+    >span {
+        color: red;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact .back-to-top-arrow{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    .contact {
+        >section {
+            >form {
+                padding: 24px;
+                min-height: unset;
+                max-height: unset;
+
+                >section {
+                    >div {
+                        >h3 {
+                            font-size: 45px;
+                        }
+
+                        >span {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .contact {
+        >section {
+            >form {
+                padding: 8px;
+
+                >section {
+                    >div {
+                        >h3 {
+                            font-size: 36px;
+                        }
+
+                        >span {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

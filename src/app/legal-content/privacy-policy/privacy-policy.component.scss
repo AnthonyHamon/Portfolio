@@ -1,0 +1,42 @@
+@use '../../../styles.scss' as f;
+
+:host{
+    display: flex;
+    justify-content: center;
+}
+
+.privacy-policy{
+    color: white;
+    padding-top: 130px; 
+    padding-left: 48px;
+    padding: 130px 0 30px 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    max-width: f.$maxWidth; 
+
+    a{
+        color: white;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+
+    >section{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        >div{
+            padding-left: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+}

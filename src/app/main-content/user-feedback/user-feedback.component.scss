@@ -1,0 +1,35 @@
+@use '../../../styles.scss' as f;
+
+:host {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.popup-ctn {
+    height: 100vh;
+    width: 100%;
+    @include f.flex(center, center);
+    overflow: hidden;
+
+
+    >span{
+        text-align: center;
+        padding: 36px;
+        background-color: white;
+        border-radius: 10px;
+        transform: translateX(200%);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .popup-ctn {
+        padding: 18px;
+        align-items: end;
+        >span{
+            padding: 18px;
+        }
+    }
+}

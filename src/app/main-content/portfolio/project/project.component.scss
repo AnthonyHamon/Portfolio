@@ -1,0 +1,206 @@
+@use '../../../../styles.scss' as f;
+
+$main-width: 100%;
+
+:host {
+    width: 90%;
+    @include f.flex(start);
+
+}
+
+.project-card {
+    @include f.flex(start);
+    width: $main-width;
+    height: 450px;
+    background-color: #292929;
+    border-radius: 24px;
+    // margin-left: 54px;
+    box-shadow: 20px 0px 20px #141414;
+    gap: 54px;
+    position: relative;
+    z-index: 1;
+
+    >img {
+        height: 450px;
+        width: 500px;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+}
+
+.project-description {
+    @include f.flex(center, start);
+    flex-direction: column;
+    gap: 18px;
+    color: #f4f4f6;
+
+
+    >div {
+        @include f.flex(start, start);
+        flex-direction: column;
+        gap: 8px;
+
+        >h3 {
+            font-size: 36px;
+        }
+
+        >span {
+            font-size: 24px;
+            color: grey;
+        }
+
+        >p {
+            width: $main-width;
+            padding-right: 54px;
+        }
+
+        >a {
+            color: white;
+            font-size: 18px;
+            transition: all 225ms ease-in-out;
+
+            &:hover {
+                transform: scale(1.15);
+            }
+        }
+    }
+}
+
+
+.links {
+    gap: 18px !important;
+}
+
+#liveTestLink {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 14px;
+
+    &:hover {
+        background-color: grey;
+    }
+}
+
+
+.reverse-card {
+    flex-direction: row-reverse;
+}
+
+.reverse-project-description {
+    @include f.flex(center, end);
+    width: 100%;
+
+    >div {
+        @include f.flex(end, end);
+
+        >p {
+            text-align: end;
+            padding-right: 0;
+        }
+    }
+}
+
+
+@media screen and (max-width:1440px) {
+
+    .project-description .links {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .project-card >img {
+            width: 100%;
+            height: 300px;
+    }
+
+    .reverse-project-description {
+        margin-left: unset;
+        margin-right: unset;
+
+        >div {
+
+            padding-left: 54px;
+
+            >span {
+                text-align: end;
+            }
+
+            >p {
+                text-align: end;
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width:1150px) {
+    :host {
+        justify-content: center;
+    }
+
+    .project-card {
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        height: 90%;
+
+        >img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .project-description,
+    .reverse-project-description {
+        padding: 0 54px 54px;
+
+        >div {
+            padding-left: 0;
+
+            >p {
+                padding-right: 0;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width:680px) {
+    .project-card {
+        width: 100%;
+        height: 100%;
+        gap: 24px;
+    }
+
+    .project-description,
+    .reverse-project-description {
+        padding: 0 24px 24px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .project-description >div {
+            >h3 {
+                font-size: 28px;
+            }
+
+            >span {
+                font-size: 20px;
+            }
+
+            >p {
+                font-size: 14px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+    }
+    #liveTestLink {
+        padding: 8px;
+    }
+}

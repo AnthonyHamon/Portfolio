@@ -1,0 +1,21 @@
+<main>
+    <div class="above-the-fold">
+        <div class="hello-world-ctn">
+            <div class="hello-world">
+                <h1>Hello World!</h1>
+                <div>
+                    <p>{{ "landingPageComponent.I" | translate }} <span id="personal-name">
+                            <ngx-typed-writer [strings]="['Anthony,']" [cursorChar]="'|'" [showCursor]="true"
+                                [backSpeed]="50" [typeSpeed]="150" [loop]="false" [startDelay]="1000">
+                            </ngx-typed-writer>
+                        </span><br>
+                       {{ "landingPageComponent.ambitionedDeveloper" | translate }}
+                    </p>
+                </div>
+                <a href="#contact">{{ "landingPageComponent.getInTouch" | translate }}</a>
+            </div>
+        </div>
+    
+        <img [ngClass]="currentLanguage" src="./assets/img/portrait.png" alt="above-the-fold-background">
+    </div>
+</main>

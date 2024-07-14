@@ -1,0 +1,114 @@
+@use '../../../styles.scss' as f;
+@use '../../app.component.scss' as app;
+
+.skills-ctn {
+    @include app.top-shadow(#141414);
+    min-height: 50vh;
+    @include f.flex(center);
+    width: 100%;
+    background-color: #141414;
+
+
+    >section {
+        @include f.flex(center);
+        width: 90%;
+        max-width: 1920px
+    }
+}
+
+.skill-list {
+    @include f.flex(center);
+    flex-wrap: wrap;
+    gap: 54px;
+    max-width: 40%;
+}
+
+.my-skills {
+    @include f.flex(center);
+    flex-direction: column;
+    padding-left: 54px;
+    color: white;
+    ;
+
+    >h2 {
+        font-size: 90px;
+        text-align: center;
+        width: max-content;
+    }
+
+    >h2.fr, h2.de{
+        width: unset;
+    }
+
+    >span {
+        text-align: center
+    }
+
+    >a {
+        @include app.getInTouchBtn();
+    }
+}
+
+.languages {
+    @include f.flex(start, start);
+}
+
+@media screen and (max-width:1300px) {
+    .skill-list {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .skills-ctn {
+        >section {
+            flex-direction: column-reverse;
+            gap: 48px;
+        }
+    }
+
+    .my-skills {
+        gap: 24px;
+        max-width: unset;
+        padding-left: unset;
+        padding-top: 24px;
+
+        >span {
+            max-width: 350px;
+            width: max-content;
+        }
+
+    }
+
+    #contact-button {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:680px) {
+
+    .my-skills {
+
+        >h2 {
+            font-size: 45px;
+        }
+
+    }
+    .skill-list {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .my-skills {
+
+        >h2.fr{
+            font-size: 40px;
+        }
+
+        >span {
+            max-width: 300px;
+        }
+    }
+}

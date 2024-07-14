@@ -1,0 +1,15 @@
+<main [ngClass]="{'project-card': true, 'reverse-card': odd}">
+        <img src="{{ project.projectPicture }}" alt="">
+        <section [ngClass]="{'project-description': true, 'reverse-project-description': odd}">
+            <div>
+                <h3>{{ project.projectName }}</h3>
+                <span>{{ project.usedTechnologies }}</span>
+                <p>{{ 'projectComponent.' + project.projectDescription | translate }}</p> 
+            </div>
+    
+            <div class="links">
+                <a href="{{ project.githubLink }}" target="_blank"><img src="assets/icons/github-white.png" alt=""></a>
+                <a id="liveTestLink" href="{{ project.liveDemoLink }}" target="_blank">{{ "projectComponent.liveTestLink" | translate }}</a>
+            </div>
+    </section> 
+</main>

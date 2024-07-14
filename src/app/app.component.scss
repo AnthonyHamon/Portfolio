@@ -1,0 +1,22 @@
+@mixin top-shadow($color: #f4f4f6){
+    box-shadow: 0px -5px 10px $color;
+}
+
+@mixin getInTouchBtn() {
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 24px;
+    margin-top: 32px;
+    background-color: white;
+    transition: all 0.225s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        color: white;
+        background-color: gray;
+        transform: scale(1.2);
+    }
+}

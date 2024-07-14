@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use './fonts.scss' as *;
+
+$maxWidth: 1920px;
+$maxHeight: 1080px;
+
+@mixin flex($j_content, $a_item: center) {
+    display: flex;
+    justify-content: $j_content;
+    align-items: $a_item;
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    scroll-margin-top: 70px;
+}
+
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    font-family: "Poppins";
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.mdc-linear-progress__bar {
+    transition: transform 1s 0ms cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* Change the transition time for the progress bar value */
+.mat-progress-bar-buffer {
+    transition: none !important;
+}
+
+.mat-progress-bar-fill::after {
+    transition: transform 1s ease;
+    /* Adjust the timing value as needed */
+}
+
+
+*{
+    scrollbar-color: grey #292929; 
+} 

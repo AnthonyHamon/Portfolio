@@ -1,0 +1,215 @@
+ @use '../../../styles.scss' as f;
+ @use '../../../app/app.component.scss' as app;
+
+
+ * {
+     color: white;
+ }
+
+ main {
+     @include f.flex(center, start);
+     background-color: black;
+ }
+
+ .above-the-fold {
+     @include f.flex(center, end);
+     position: relative;
+     background-image: url(../../../assets/img/bg-landpage.jpg);
+     background-position: bottom right;
+     background-size: auto;
+     background-repeat: no-repeat;
+     background-color: black;
+     height: 100vh;
+     width: 100%;
+     max-width: 1920px;
+
+     >img {
+         width: 600px;
+         height: auto;
+     }
+ }
+
+ #personal-name {
+     font-size: 48px;
+ }
+
+ .hello-world-ctn {
+     @include f.flex(center, center);
+     height: 100%;
+     width: 50%;
+
+     .hello-world {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 12px;
+
+         >h1 {
+             font-size: 36px;
+         }
+
+         >div {
+             display: flex;
+             flex-direction: column;
+             font-size: 36px;
+
+             >p,
+             >span {
+                 text-align: center;
+             }
+         }
+
+         >a {
+             @include app.getInTouchBtn();
+         }
+     }
+ }
+
+ @media screen and (max-width: 1024px) {
+     .above-the-fold {
+         flex-direction: column-reverse;
+         align-items: center;
+
+         >img {
+             width: auto;
+             height: 600px;
+             margin-top: 100px;
+         }
+     }
+
+     .hello-world-ctn {
+         height: unset;
+
+         .hello-world {
+
+             gap: 0;
+
+             >h1 {
+                 display: none;
+             }
+
+             >div {
+                 width: max-content;
+             }
+
+             >a {
+                 margin-top: 8px;
+             }
+         }
+     }
+ }
+
+ @media screen and (max-width: 475px) {
+     .above-the-fold>img {
+         height: 500px;
+     }
+
+     #personal-name {
+         display: block;
+         width: max-content;
+     }
+
+     .hello-world-ctn {
+         .hello-world {
+             >div {
+                 width: unset;
+
+                 >p {
+                     >br {
+                         display: none;
+                     }
+                 }
+             }
+         }
+     }
+ }
+
+ @media screen and (max-width: 350px) {
+     .above-the-fold>img {
+         height: 450px;
+     }
+ }
+
+ @media screen and (max-height:1000px) {
+     .above-the-fold>img {
+         margin-top: unset;
+     }
+ }
+
+ @media screen and (max-height:800px) {
+
+     .above-the-fold {
+         gap: 24px;
+
+         >img {
+             height: 350px !important;
+         }
+     }
+
+     .hello-world-ctn {
+         .hello-world {
+             >div {
+                 font-size: 24px;
+             }
+
+             >a {
+                 width: max-content;
+             }
+         }
+     }
+
+     #personal-name {
+         font-size: 32px;
+         width: unset !important;
+     }
+ }
+
+ @media screen and (max-height:700px) {
+
+     .above-the-fold {
+         gap: 0px;
+     }
+ }
+
+ @media screen and (max-height:600px) {
+
+     .above-the-fold>img {
+         height: 275px !important;
+     }
+
+     .hello-world-ctn {
+         .hello-world {
+             >div {
+                 font-size: 18px;
+             }
+
+             >a {
+                 padding: 12px;
+             }
+         }
+     }
+
+     #personal-name {
+         font-size: 24px;
+         width: unset !important;
+     }
+ }
+
+ @media screen and (min-width:800px) and (max-width:1024px) and (min-height:1180px) and (max-height:1368px) {
+     .above-the-fold {
+         background-position: top right;
+
+         >img {
+             height: 870px;
+             margin-top: unset;
+         }
+     }
+ }
+
+ @media screen and (width:1280px) and (height:800px) {
+
+     .above-the-fold>img {
+         height: 750px !important;
+     }
+ }

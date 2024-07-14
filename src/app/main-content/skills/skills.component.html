@@ -1,0 +1,14 @@
+<main class="skills-ctn">
+    <section>
+        <div class="skill-list">
+            @for (technology of skills; track $index) {
+            <app-technology [technology]="technology"></app-technology>
+            }
+        </div>
+        <div class="my-skills">
+            <h2 [ngClass]="currentLanguage">{{ "skillsComponent.mySkills" | translate }}</h2>
+            <span>{{ "skillsComponent.skillsDescription" | translate }}</span>
+            <a id="contact-button" href="#contact">{{ "skillsComponent.contactButton" | translate }}</a>
+        </div>
+    </section>
+</main>

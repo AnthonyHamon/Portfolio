@@ -1,0 +1,32 @@
+@use '../../../styles.scss' as f;
+
+:host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imprint {
+    max-width: f.$maxWidth;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    >section{
+        height: calc(100vh - 150px);
+        width: 90%;
+        @include f.flex(center, start);
+        flex-direction: column;
+        gap: 48px;
+        margin-left: 48px;
+    
+        color: white;
+    
+        a {
+            color: white;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+   
+}

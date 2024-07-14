@@ -1,0 +1,11 @@
+<main>
+    <section [ngClass]="currentLanguage">
+        <h2 [ngClass]="currentLanguage">{{ "languagesComponent.spokenLanguages" | translate }}</h2>
+        <div>
+            @for (language of languages; track $index) {
+                <app-language-progress-bar [language]='language'></app-language-progress-bar>
+            }
+        </div>
+    </section>
+    
+</main>

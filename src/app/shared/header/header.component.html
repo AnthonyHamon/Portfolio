@@ -1,0 +1,20 @@
+<header>
+    <main class="header">
+        <section [ngClass]="currentLanguage">
+            <a [ngClass]="currentLanguage" href="#home"><img src="assets/icons/A-full-logo.png" alt=""></a>
+
+            <div [ngClass]="currentLanguage" class="navbar">
+    
+                <a href="#about-me">{{ 'headerComponent.about' | translate }}</a>
+                <a href="#skills">{{ 'headerComponent.skills' | translate }}</a>
+                <a href="#projects">{{ 'headerComponent.projects' | translate }}</a>
+                <section>
+                    <a href="#contact">{{ 'headerComponent.contact' | translate }}</a>
+                    <div class="translate-menu">
+                        <app-languages-menu></app-languages-menu>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+</header>

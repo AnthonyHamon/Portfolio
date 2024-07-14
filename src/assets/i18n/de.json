@@ -1,0 +1,214 @@
+{
+  "headerComponent": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "landingPageComponent": {
+    "I": "Ich bin",
+    "helloWorld": "Hallo Welt!",
+    "ambitionedDeveloper": "ambitionierter Entwickler!",
+    "getInTouch": "Kontaktiere mich!"
+  },
+  "aboutMeComponent": {
+    "aboutMe": "Über mich",
+    "description": "Hallo! Ich bin ein Front-End-Entwickler aus Jüchen, Deutschland. Ich liebe es, Ideen und Visionen mit Präzision und Leidenschaft zum Leben zu erwecken. Programmieren wächst kontinuierlich und ich freue mich darauf, weiter mit ihm zu wachsen, mit einer Junior-Entwickler-Position.",
+    "developing": "Entwickeln bedeutet Bauen, und ich liebe es. Sei es virtuell oder real, ich gebe mein Bestes, um alles bestmöglich zu bauen, und ich bin immer stolz darauf, ein Projekt wachsen zu sehen und das Endergebnis zu betrachten.",
+    "interests": "Ich habe viele Interessen! Lesen, spazieren gehen, Spiele spielen (Brett- und Videospiele), einfach über die Welt diskutieren. Ich liebe Aktivitäten, die mich zum Nachdenken bringen. Ich treibe Sport und bin immer glücklich, mit meiner Familie zusammen zu sein. Und natürlich liebe ich das Programmieren!"
+  },
+  "skillsComponent": {
+    "mySkills": "Meine Fähigkeiten",
+    "skillsDescription": "Ich habe Projekte mit verschiedenen Front-End-Technologien und Konzepten erstellt und wertvolle Erfahrungen gesammelt.",
+    "contactButton": "Lass uns reden"
+  },
+  "languagesComponent": {
+    "spokenLanguages": "Gesprochene Sprachen",
+    "english": "Englisch",
+    "german": "Deutsch",
+    "french": "Französisch"
+  },
+  "portfolioComponent": {
+    "myWork": "Meine Arbeit"
+  },
+  "projectComponent": {
+    "liveTestLink": "Live testen",
+    "fantasiaAdventureDescription": "Ein 2D-Plattform-, Jump-and-Run-Abenteuerspiel, das hauptsächlich auf JavaScript und OOP basiert. Sei ein Held, sammle Gegenstände, besiege alle Kreaturen und besiege den Boss mit verschiedenen Fähigkeiten und rette die Welt!",
+    "joinDescription": "Melden Sie sich an und verwenden Sie diese Aufgabenmanager-App, die vom Kanban-System inspiriert ist. Erstellen, aktualisieren und löschen Sie Ihre Aufgaben. Weisen Sie sie Benutzern zu und organisieren Sie Ihr Projekt nach Kategorien und Status.",
+    "pokedexDescription": "Eine Bibliothek für alle Pokémons. Erhalten Sie viele Informationen über die Taschenmonster oder suchen Sie nach einem bestimmten. Basierend auf der PokéAPI.",
+    "portfolioDescription": "Ein einfaches Ein-Seiten-Portfolio, um mich vorzustellen und meine Projekte potenziellen Kunden / Unternehmen / Recruitern zu zeigen."
+  },
+  "contactComponent": {
+    "getInTouch": "KONTAKTIERE MICH",
+    "contact": "Kontakt",
+    "yourName": "Dein Name",
+    "namePlaceholder": "Wie heißt du?",
+    "nameValidation": "Bitte sag mir, wer du bist.",
+    "yourEmail": "Deine E-Mail",
+    "emailPlaceholder": "Wie lautet deine E-Mail?",
+    "emailValidation": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "yourMessage": "Deine Nachricht",
+    "messagePlaceholder": "Was ist deine Nachricht?",
+    "messageValidation": "Deine Nachricht fehlt, bitte fülle sie aus!",
+    "isRead": "Ich habe die",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "acceptPrivacyPolicy": "gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+    "privacyValidation": "Bitte akzeptiere die Datenschutzrichtlinie, um deine Nachricht zu senden.",
+    "sendButton": "SENDEN"
+  },
+  "userFeedback": {
+    "messageSent": "Ihr Nachricht wurde erfolgreich abgeschickt",
+    "messageError": "Ihr Nachricht konnte nicht verschickt werden, bitte versuchen Sie es nochmal"
+  },
+  "IMPRINT": {
+    "imprint": "Impressum",
+    "contact": "Kontakt",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "source": "Quelle"
+  },
+  "PRIVACY_POLICY": {
+    "title": "Datenschutz",
+    "section1": {
+      "title": "1. Datenschutz auf einen Blick",
+      "generalInfo": {
+        "title": "Allgemeine Informationen",
+        "description": "Im Folgenden erhalten Sie einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung."
+      },
+      "dataCollection": {
+        "title": "Datenerfassung auf dieser Website",
+        "responsible": {
+          "title": "Wer ist verantwortlich für die Datenerfassung auf dieser Website?",
+          "description": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt \"Hinweis zur verantwortlichen Stelle\" in dieser Datenschutzerklärung entnehmen."
+        },
+        "howCollect": {
+          "title": "Wie erfassen wir Ihre Daten?",
+          "description1": "Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.",
+          "description2": "Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten."
+        },
+        "useOfData": {
+          "title": "Wofür nutzen wir Ihre Daten?",
+          "description": "Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden."
+        },
+        "rights": {
+          "title": "Welche Rechte haben Sie bezüglich Ihrer Daten?",
+          "description1": "Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.",
+          "description2": "Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden."
+        }
+      },
+      "analysisTools": {
+        "title": "Analyse-Tools und Tools von Drittanbietern",
+        "description1": "Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit sogenannten Analyseprogrammen.",
+        "description2": "Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung."
+      }
+    },
+    "section2": {
+      "title": "2. Hosting",
+      "hostingInfo": {
+        "description": "Wir hosten den Inhalt unserer Website bei folgendem Anbieter:",
+        "provider": {
+          "title": "IONOS",
+          "details": "Der Anbieter ist IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (im Folgenden IONOS). Wenn Sie unsere Website besuchen, sammelt IONOS verschiedene Protokolldateien, einschließlich Ihrer IP-Adressen. Einzelheiten finden Sie in der IONOS-Datenschutzrichtlinie:"
+        },
+        "legalBasis": {
+          "description": "Die Nutzung von IONOS basiert auf Art. 6(1)(f) DSGVO. Wir haben ein berechtigtes Interesse an einer zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung angefordert wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6(1)(a) DSGVO und § 25(1) TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar."
+        },
+        "dataProcessingAgreement": {
+          "title": "Datenverarbeitungsvertrag",
+          "description": "Wir haben einen Vertrag über Auftragsverarbeitung (AVV) für die Nutzung des oben genannten Dienstes abgeschlossen. Dies ist ein gesetzlich vorgeschriebener Datenschutzvertrag, der sicherstellt, dass der Dienst die personenbezogenen Daten unserer Website-Besucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet."
+        }
+      }
+    },
+    "section3": {
+      "title": "3. Allgemeine Hinweise und Pflichtinformationen",
+      "dataProtection": {
+        "title": "Datenschutz",
+        "description1": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.",
+        "description2": "Wenn Sie diese Website nutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.",
+        "description3": "Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich."
+      },
+      "responsibleEntity": {
+        "title": "Hinweis zur verantwortlichen Stelle",
+        "description1": "Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
+        "contactDetails": "Anthony Hamon<br />Wickratherstr. 62<br />41363 Jüchen<br />Telefon: 017672373759<br />E-Mail: contact&#64;anthony-hamon.com",
+        "description2": "Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o.ä.) entscheidet."
+      },
+      "storagePeriod": {
+        "title": "Speicherdauer",
+        "description": "Sofern innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie eine rechtmäßige Löschung beantragen oder Ihre Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z.B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Wegfall dieser Gründe."
+      },
+      "dataProcessingLegalBases": {
+        "title": "Allgemeine Informationen zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website",
+        "description": "Wenn Sie Ihre Einwilligung zur Verarbeitung Ihrer Daten gegeben haben, erfolgt die Verarbeitung Ihrer personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO, sofern es sich um besondere Kategorien von Daten gemäß Art. 9 Abs. 1 DSGVO handelt. Bei ausdrücklicher Einwilligung zur Übermittlung personenbezogener Daten an Drittländer erfolgt die Datenverarbeitung zusätzlich auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Wenn Sie in die Speicherung von Cookies oder den Zugriff auf Informationen auf Ihrem Gerät eingewilligt haben (z.B. durch Geräte-Fingerprinting), erfolgt die Verarbeitung der Daten zusätzlich auf Grundlage von § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar. Wenn Ihre Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen erforderlich sind, erfolgt die Verarbeitung Ihrer Daten auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO. Weiterhin verarbeiten wir Ihre Daten, sofern dies zur Erfüllung einer rechtlichen Verpflichtung gemäß Art. 6 Abs. 1 lit. c DSGVO erforderlich ist. Die Datenverarbeitung kann auch auf Grundlage unserer berechtigten Interessen gemäß Art. 6 Abs. 1 lit. f DSGVO erfolgen. Entsprechende Rechtsgrundlagen sind in den jeweiligen Abschnitten dieser Datenschutzerklärung einzeln benannt."
+      },
+      "recipientsOfPersonalData": {
+        "title": "Empfänger von personenbezogenen Daten",
+        "description": "Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen externen Stellen zusammen. Teilweise ist es notwendig, personenbezogene Daten an diese externen Stellen zu übermitteln. Wir geben personenbezogene Daten nur an externe Stellen weiter, wenn dies im Rahmen der Vertragserfüllung erforderlich ist, wenn wir gesetzlich dazu verpflichtet sind (z.B. Mitteilung an Steuerbehörden), wenn ein berechtigtes Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO an der Übermittlung besteht oder wenn eine andere Rechtsgrundlage die Übermittlung der Daten erlaubt. Bei der Nutzung von Auftragsverarbeitern geben wir personenbezogene Daten unserer Kunden nur auf Grundlage eines gültigen Vertrags zur Auftragsverarbeitung weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag zur gemeinsamen Verarbeitung abgeschlossen."
+      },
+      "withdrawalOfConsent": {
+        "title": "Widerruf Ihrer Einwilligung zur Datenverarbeitung",
+        "description": "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt."
+      },
+      "rightToObject": {
+        "title": "Widerspruchsrecht bei Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)",
+        "description1": "Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Die jeweilige Rechtsgrundlage, auf der eine Verarbeitung beruht, finden Sie in dieser Datenschutzerklärung. Wenn Sie widersprechen, werden wir Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO).",
+        "description2": "Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Widersprechen Sie, so werden Ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO)."
+      },
+      "rightToLodgeComplaint": {
+        "title": "Beschwerderecht bei der zuständigen Aufsichtsbehörde",
+        "description": "Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe."
+      },
+      "rightToDataPortability": {
+        "title": "Recht auf Datenübertragbarkeit",
+        "description": "Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist."
+      },
+      "sslTlsEncryption": {
+        "title": "SSL- bzw. TLS-Verschlüsselung",
+        "description": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von \"http://\" auf \"https://\" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
+      },
+      "informationCorrectionDeletion": {
+        "title": "Auskunft, Berichtigung und Löschung",
+        "description": "Im Rahmen der geltenden gesetzlichen Bestimmungen haben Sie jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden."
+      },
+      "rightToRestriction": {
+        "title": "Recht auf Einschränkung der Verarbeitung",
+        "description1": "Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:",
+        "list": {
+          "1": "Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.",
+          "2": "Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.",
+          "3": "Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.",
+          "4": "Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen."
+        },
+        "description2": "Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden."
+      },
+      "oppositionToAdvertisingEmails": {
+        "title": "Widerspruch gegen Werbe-E-Mails",
+        "description": "Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor."
+      }
+    },
+    "section4": {
+      "title": "4. Datenerhebung auf dieser Website",
+      "cookies": {
+        "title": "Cookies",
+        "description1": "Einige der Websites verwenden sogenannte Cookies. Cookies schaden Ihrem Computer nicht und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Computer gespeichert und von Ihrem Browser gespeichert werden.",
+        "description2": "Die meisten von uns verwendeten Cookies sind sogenannte 'Session-Cookies'. Sie werden automatisch gelöscht, wenn Sie unsere Website verlassen. Andere Cookies bleiben auf Ihrem Gerät gespeichert, bis Sie sie löschen. Diese Cookies ermöglichen es uns, Ihren Browser bei Ihrem nächsten Besuch wiederzuerkennen.",
+        "description3": "Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur in einzelnen Fällen erlauben, die Annahme von Cookies für bestimmte Fälle ausschließen oder generell aktivieren sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.",
+        "description4": "Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs oder zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z.B. Warenkorbfunktion) erforderlich sind, werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Soweit andere Cookies (z.B. Cookies zur Analyse Ihres Surfverhaltens) gespeichert werden, werden diese in dieser Datenschutzerklärung gesondert behandelt."
+      },
+      "serverLogFiles": {
+        "title": "Server-Log-Dateien",
+        "description1": "Der Website-Anbieter erhebt und speichert automatisch Informationen in Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:",
+        "list": {
+          "1": "Browser-Typ und Browserversion",
+          "2": "Verwendetes Betriebssystem",
+          "3": "Referrer-URL",
+          "4": "Hostname des zugreifenden Computers",
+          "5": "Zeitpunkt der Serveranfrage",
+          "6": "IP-Adresse"
+        },
+        "description2": "Diese Daten werden nicht mit Daten aus anderen Quellen kombiniert. Die Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen erlaubt."
+      }
+    }
+  }
+}
