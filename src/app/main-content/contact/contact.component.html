@@ -1,6 +1,6 @@
 <main class="contact">
     <section id="contactForm">
-        <form  [@slideIn]="isVisible ? 'visible' : 'hidden'" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <form  [@slideInRight]="isVisible ? 'visible' : 'hidden'" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
             <section>
                 <div>
                     <span>{{"contactComponent.getInTouch" | translate}}</span>

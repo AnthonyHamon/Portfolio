@@ -1,6 +1,6 @@
-<main [ngClass]="{'project-card': true, 'reverse-card': odd}">
+<main [ngClass]="{'project-card': true, 'reverse-card': odd}" id="project">
         <img src="{{ project.projectPicture }}" alt="">
-        <section [ngClass]="{'project-description': true, 'reverse-project-description': odd}">
+        <section [@slideInRight]="isVisible && even ? 'visible' : 'hidden'" [@slideInLeft]="isVisible && odd ? 'visible' : 'hidden'" [ngClass]="{'project-description': true, 'reverse-project-description': odd}">
             <div>
                 <h3>{{ project.projectName }}</h3>
                 <span>{{ project.usedTechnologies }}</span>

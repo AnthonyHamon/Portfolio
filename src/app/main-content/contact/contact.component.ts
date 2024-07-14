@@ -14,7 +14,20 @@ import { CommonModule } from '@angular/common';
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
   animations: [
-    trigger('slideIn', [
+    trigger('slideInRight', [
+      state('hidden', style({
+        transform: 'translateX(-100%)',
+        opacity: 0
+      })),
+      state('visible', style({
+        transform: 'translateX(0)',
+        opacity: 1
+      })),
+      transition('hidden => visible', [
+        animate('0.5s ease-in')
+      ]),
+    ]),
+    trigger('slideInLeft', [
       state('hidden', style({
         transform: 'translateX(-100%)',
         opacity: 0
@@ -37,6 +50,7 @@ export class ContactComponent implements OnInit, OnDestroy{
   constructor(private el: ElementRef) {}
 
   ngOnInit() {
+    // debugger
     const formElement = this.el.nativeElement.querySelector('#contactForm');
       this.observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {

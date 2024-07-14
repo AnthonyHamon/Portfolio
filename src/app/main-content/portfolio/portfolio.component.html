@@ -1,8 +1,8 @@
 <main class="portfolio">
 
     <h2>{{ "portfolioComponent.myWork" | translate }}</h2>
-    @for (project of portfolio; track project; let odd = $odd; let first = $first) {
-        <app-project [project]='project' [class.reverse-card]="odd" [odd]="odd" [firstProject]="first"></app-project>
+    @for (project of portfolio; track project; let odd = $odd; let even = $even; let first = $first; let index= $index) {
+    <app-project [project]='project' [class.reverse-card]="odd" [odd]="odd" [even]="even"></app-project>
     }
 
 </main>

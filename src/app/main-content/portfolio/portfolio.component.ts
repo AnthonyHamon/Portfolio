@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit } from '@angular/core';
 import { ProjectComponent } from './project/project.component';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { animate, state, style, transition, trigger } from '@angular/animations';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [ProjectComponent, TranslateModule],
+  imports: [ProjectComponent, TranslateModule, CommonModule],
   templateUrl: './portfolio.component.html',
-  styleUrl: './portfolio.component.scss'
+  styleUrl: './portfolio.component.scss',
 })
 export class PortfolioComponent {
 
@@ -39,15 +41,15 @@ export class PortfolioComponent {
       projectDescription: 'pokedexDescription',
 
     },
-    {
-      projectName: 'Portfolio',
-      projectPicture: 'assets/img/projects/portfolio.jpg',
-      liveDemoLink: 'https://anthony-hamon.com/',
-      githubLink: 'https://github.com/AnthonyHamon/MyPortfolio',
-      usedTechnologies: 'Angular, TypeScript, SCSS',
-      projectDescription: 'portfolioDescription',
+    // {
+    //   projectName: 'Portfolio',
+    //   projectPicture: 'assets/img/projects/portfolio.jpg',
+    //   liveDemoLink: 'https://anthony-hamon.com/',
+    //   githubLink: 'https://github.com/AnthonyHamon/MyPortfolio',
+    //   usedTechnologies: 'Angular, TypeScript, SCSS',
+    //   projectDescription: 'portfolioDescription',
 
-    },
+    // },
     // {
     //   projectName: 'Simple CRM',
     //   projectPicture: 'assets/img/projects/portfolio.jpg',
