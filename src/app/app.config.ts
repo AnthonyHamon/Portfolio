@@ -1,5 +1,5 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideRouter, RouterModule, Routes } from '@angular/router';
 
 import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
@@ -8,6 +8,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { HttpClient, HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { PrivacyPolicyComponent } from './legal-content/privacy-policy/privacy-policy.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -23,6 +24,10 @@ export const provideTranslation = () => ({
   },
 });
 
+const privacyPolicyRoute: Routes = [
+  { path: 'privacyPolicy', component: PrivacyPolicyComponent}
+]
+
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes), 
@@ -31,7 +36,7 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(withFetch()),
     importProvidersFrom([
       HttpClientModule, 
-      TranslateModule.forRoot(provideTranslation())
+      TranslateModule.forRoot(provideTranslation()),
     ]),
   ]
 };
