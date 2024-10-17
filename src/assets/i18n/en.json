@@ -37,7 +37,6 @@
     "pokedexDescription": "A library for all Pokémons. Obtain many Informations about the Pocket Monsters or search for a specific one. Based ond the PokéAPI",
     "portfolioDescription": "A simple one Page portfolio to introduce myself and share my projects to potential client / company / recruiter.",
     "dabubbleDescription": "A chat-app as communication platform for users to chat in channels or per PM with each other."
-
   },
   "contactComponent": {
     "getInTouch": "GET IN TOUCH",
