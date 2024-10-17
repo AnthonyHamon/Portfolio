@@ -41,23 +41,13 @@ export class PortfolioComponent {
       projectDescription: 'pokedexDescription',
 
     },
-    // {
-    //   projectName: 'Portfolio',
-    //   projectPicture: 'assets/img/projects/portfolio.jpg',
-    //   liveDemoLink: 'https://anthony-hamon.com/',
-    //   githubLink: 'https://github.com/AnthonyHamon/MyPortfolio',
-    //   usedTechnologies: 'Angular, TypeScript, SCSS',
-    //   projectDescription: 'portfolioDescription',
-
-    // },
-    // {
-    //   projectName: 'Simple CRM',
-    //   projectPicture: 'assets/img/projects/portfolio.jpg',
-    //   liveDemoLink: 'https://da-bubble.anthony-hamon.com/',
-    //   githubLink: 'https://github.com/AnthonyHamon/MyPortfolio',
-    //   usedTechnologies: 'Angular, Firebase',
-    //   projectDescription: 'A very Simple Customer Relationship Management system working with CRUD functionality.',
-
-    // }
+    {
+      projectName: 'DABubble',
+      projectPicture: 'assets/img/projects/DABubble.jpg',
+      liveDemoLink: 'https://dabubble.anthony-hamon.com/',
+      githubLink: 'https://github.com/AnthonyHamon/MyPortfolio',
+      usedTechnologies: 'Angular, TypeScript, Firebase',
+      projectDescription: 'dabubbleDescription',
+    }
   ]
 }
