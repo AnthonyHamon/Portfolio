@@ -20,6 +20,7 @@ yarn-error.log
 .settings/
 *.sublime-workspace
 /up.bat
+/Anthony Hamon -portfolio design feedback.pdf
 
 # Visual Studio Code
 .vscode/*
