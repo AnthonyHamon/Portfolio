@@ -37,7 +37,8 @@
     "fantasiaAdventureDescription": "Ein 2D-Plattform-, Jump-and-Run-Abenteuerspiel, das hauptsächlich auf JavaScript und OOP basiert. Sei ein Held, sammle Gegenstände, besiege alle Kreaturen und besiege den Boss mit verschiedenen Fähigkeiten und rette die Welt!",
     "joinDescription": "Melden Sie sich an und verwenden Sie diese Aufgabenmanager-App, die vom Kanban-System inspiriert ist. Erstellen, aktualisieren und löschen Sie Ihre Aufgaben. Weisen Sie sie Benutzern zu und organisieren Sie Ihr Projekt nach Kategorien und Status.",
     "pokedexDescription": "Eine Bibliothek für alle Pokémons. Erhalten Sie viele Informationen über die Taschenmonster oder suchen Sie nach einem bestimmten. Basierend auf der PokéAPI.",
-    "portfolioDescription": "Ein einfaches Ein-Seiten-Portfolio, um mich vorzustellen und meine Projekte potenziellen Kunden / Unternehmen / Recruitern zu zeigen."
+    "portfolioDescription": "Ein einfaches Ein-Seiten-Portfolio, um mich vorzustellen und meine Projekte potenziellen Kunden / Unternehmen / Recruitern zu zeigen.",
+    "dabubbleDescription": "Eine Chat-App als Kommunikationsplattform auf welche, Nutzer in Kanälen oder per PM miteinander chatten können."
   },
   "contactComponent": {
     "getInTouch": "KONTAKTIERE MICH",
