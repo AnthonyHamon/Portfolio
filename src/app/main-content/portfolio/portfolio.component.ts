@@ -45,7 +45,7 @@ export class PortfolioComponent {
       projectName: 'DABubble',
       projectPicture: 'assets/img/projects/DABubble.jpg',
       liveDemoLink: 'https://dabubble.anthony-hamon.com/',
-      githubLink: 'https://github.com/AnthonyHamon/MyPortfolio',
+      githubLink: 'https://github.com/AnthonyHamon/DABubble',
       usedTechnologies: 'Angular, TypeScript, Firebase',
       projectDescription: 'dabubbleDescription',
     }
