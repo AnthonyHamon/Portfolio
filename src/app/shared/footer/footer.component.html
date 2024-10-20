@@ -2,22 +2,17 @@
     <main class="footer">
         <hr>
         <section>
-            <div>
-                <a href="#"><img src="assets/icons/A-logo.png" alt=""></a>
-                <div class="footer-links">
-                    <div class="social-links">
-                        <a href="https://github.com/AnthonyHamon" target="_blank"><img
-                                src="assets/icons/github-white.png" alt=""></a>
-                        <a href="https://linkedin.com/in/anthony-hamon91" target="_blank"><img
-                                src="assets/icons/linkedin-white.png" alt=""></a>
-                        <a href="mailto: info@anthony-hamon.com"><img src="assets/icons/email-white.png" alt=""></a>
-                    </div>
-                    <div>
-                        <a [routerLink]="['/privacy-policy']">{{ "PRIVACY_POLICY.title" | translate }}</a>
-                        <a [routerLink]="['/imprint']">{{ "IMPRINT.imprint" | translate }}</a>
-
-                    </div>
-                </div>
+            <div class="footer-links">
+                <a [routerLink]="['/imprint']">{{ "IMPRINT.imprint" | translate }}</a>
+                <a [routerLink]="['/privacy-policy']">{{ "PRIVACY_POLICY.title" | translate }}</a>
+            </div>
+            <a href="#"><img src="assets/icons/A-logo.png" alt=""></a>
+            <div class="social-links">
+                <a href="https://github.com/AnthonyHamon" target="_blank"><img src="assets/icons/github-white.png"
+                        alt=""></a>
+                <a href="https://linkedin.com/in/anthony-hamon91" target="_blank"><img
+                        src="assets/icons/linkedin-white.png" alt=""></a>
+                <a href="mailto: info@anthony-hamon.com"><img src="assets/icons/email-white.png" alt=""></a>
             </div>
         </section>
     </main>

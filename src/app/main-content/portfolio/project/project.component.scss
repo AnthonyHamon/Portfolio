@@ -54,14 +54,17 @@ $main-width: 100%;
             width: $main-width;
             padding-right: 54px;
         }
-
+    }
+    .links{
+        flex-direction: row;
+        align-items: center;
         >a {
             color: white;
             font-size: 18px;
             transition: all 225ms ease-in-out;
 
             &:hover {
-                transform: scale(1.15);
+                transform: scale(1.05);
             }
         }
     }
@@ -85,6 +88,12 @@ $main-width: 100%;
 
 .reverse-card {
     flex-direction: row-reverse;
+
+    section{
+        .links{
+            flex-direction: row-reverse
+        }
+    }
 }
 
 .reverse-project-description {
@@ -97,6 +106,7 @@ $main-width: 100%;
         >p {
             text-align: end;
             padding-right: 0;
+            padding-left: 54px;
         }
     }
 }
@@ -163,6 +173,7 @@ $main-width: 100%;
 
             >p {
                 padding-right: 0;
+                padding-left: 0;
             }
         }
     }

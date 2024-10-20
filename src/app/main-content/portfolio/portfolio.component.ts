@@ -16,7 +16,7 @@ export class PortfolioComponent {
   portfolio = [
     {
       projectName: 'Fantasia Adventure',
-      projectPicture: 'assets/img/projects/fa-game-screen-console3.jpg',
+      projectPicture: 'assets/img/projects/fa-gaming-display.png',
       liveDemoLink: 'https://fantasia-adventure.anthony-hamon.com/',
       githubLink: 'https://github.com/AnthonyHamon/Fantasia-Adventures',
       usedTechnologies: 'JavaScript, HTML, CSS',
