@@ -1,6 +1,5 @@
 {
   "headerComponent": {
-    "home": "Accueil",
     "about": "À propos",
     "skills": "Compétences",
     "projects": "Projets",
@@ -8,13 +7,12 @@
   },
   "landingPageComponent": {
     "I": "Je m'appelle",
-    "helloWorld": "Bonjour le monde!",
     "ambitionedDeveloper": "développeur ambitieux!",
     "getInTouch": "Contactez-moi!"
   },
   "aboutMeComponent": {
     "aboutMe": "À propos de moi",
-    "description": "Salut! Je suis un développeur Front-End vivant à Jüchen, en Allemagne. J'aime donner vie aux idées et aux visions, avec précision et passion. Le code croît continuellement et j'ai hâte de continuer à grandir avec lui, grâce à un poste de développeur junior.",
+    "description": "Salut! Je suis un développeur Frontend vivant à Jüchen, en Allemagne. J'aime donner vie aux idées et aux visions, avec précision et passion. Le code croît continuellement et j'ai hâte de continuer à grandir avec lui, grâce à un poste de développeur junior.",
     "developing": "Développer, c'est construire, et j'adore ça. Que ce soit virtuel ou réel, je fais de mon mieux pour tout construire de la meilleure façon possible et je suis toujours fier de voir un projet évoluer et de regarder le résultat final.",
     "interests": "J'ai beaucoup d'intérêts! Lire, me promener, jouer à des jeux (jeux de société et jeux vidéo), discuter du monde. J'aime les activités qui me font réfléchir. Je fais du sport et je suis toujours heureux d'être avec ma famille. Et naturellement, j'aime coder!"
   },
@@ -39,7 +37,6 @@
     "pokedexDescription": "Une bibliothèque pour tous les Pokémons. Obtenez de nombreuses informations sur les monstres de poche ou recherchez-en un spécifique. Basé sur la PokéAPI.",
     "portfolioDescription": "Un portfolio d'une page simple pour me présenter et partager mes projets avec des clients potentiels / entreprises / recruteurs.",
     "dabubbleDescription": "Une application de chat servant de plateforme de communication, permettant aux utilisateurs de discuter dans des canaux ou entre eux par messages privés."
-
   },
   "contactComponent": {
     "getInTouch": "ENTRER EN CONTACT",
@@ -57,7 +54,9 @@
     "privacyPolicy": "politique de confidentialité",
     "acceptPrivacyPolicy": "et j'accepte le traitement de mes données comme indiqué.",
     "privacyValidation": "Veuillez accepter la politique de confidentialité pour envoyer votre message.",
-    "sendButton": "ENVOYER"
+    "sendButton": "ENVOYER",
+    "contactCallToAction": "Travaillons&#10;ensemble",
+    "contactCallToActionDescription": "Mon travail vous plaît et vous avez un nouveau projet ou un problème à résoudre ? N'hésitez pas à me contacter via le formulaire de contact et parlons-en ! Je serais ravi de réaliser vos souhaits !"
   },
   "userFeedback": {
     "messageSent": "Votre message à été envoyé avecc succès",
@@ -108,88 +107,85 @@
     "section2": {
       "title": "2. Hébergement",
       "hostingInfo": {
-        "description": "Nous hébergeons le contenu de notre site web avec le fournisseur suivant :"
-      },
-      "provider": {
-        "name": "IONOS",
-        "details": {
-          "description1": "Le fournisseur est IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (ci-après IONOS). Lorsque vous visitez notre site web, IONOS collecte divers fichiers journaux, y compris vos adresses IP. Les détails peuvent être trouvés dans la politique de confidentialité de IONOS :",
-          "link": "https://www.ionos.de/terms-gtc/terms-privacy"
+        "description": "Nous hébergeons le contenu de notre site web avec le fournisseur suivant :",
+        "provider": {
+          "title": "IONOS",
+          "details": "Le fournisseur est IONOS SE, Elgendorfer Str. 57, 56410 Montabaur (ci-après IONOS). Lorsque vous visitez notre site web, IONOS collecte divers fichiers journaux, y compris vos adresses IP. Les détails peuvent être trouvés dans la politique de confidentialité de IONOS :"
         },
-        "usage": {
-          "description2": "L'utilisation de IONOS est basée sur l'Art. 6(1)(f) GDPR. Nous avons un intérêt légitime à une présentation fiable de notre site web. Si un consentement correspondant a été demandé, le traitement est effectué exclusivement sur la base de l'Art. 6(1)(a) GDPR et § 25(1) TDDDG, dans la mesure où le consentement inclut le stockage de cookies ou l'accès aux informations sur l'appareil de l'utilisateur (par exemple, l'empreinte digitale de l'appareil) selon le TDDDG. Le consentement peut être révoqué à tout moment."
+        "legalBasis": {
+          "description": "L'utilisation de IONOS est basée sur l'Art. 6(1)(f) GDPR. Nous avons un intérêt légitime à une présentation fiable de notre site web. Si un consentement correspondant a été demandé, le traitement est effectué exclusivement sur la base de l'Art. 6(1)(a) GDPR et § 25(1) TDDDG, dans la mesure où le consentement inclut le stockage de cookies ou l'accès aux informations sur l'appareil de l'utilisateur (par exemple, l'empreinte digitale de l'appareil) selon le TDDDG. Le consentement peut être révoqué à tout moment."
+        },
+        "dataProcessingAgreement": {
+          "title": "Contrat de traitement des données",
+          "description": "Nous avons conclu un contrat de traitement des commandes (AVV) pour l'utilisation du service mentionné ci-dessus. Il s'agit d'un contrat de protection des données requis par la loi, qui garantit que le service traite les données personnelles des visiteurs de notre site web uniquement selon nos instructions et en conformité avec le GDPR."
         }
-      },
-      "dataProcessingAgreement": {
-        "title": "Contrat de traitement des données",
-        "description": "Nous avons conclu un contrat de traitement des commandes (AVV) pour l'utilisation du service mentionné ci-dessus. Il s'agit d'un contrat de protection des données requis par la loi, qui garantit que le service traite les données personnelles des visiteurs de notre site web uniquement selon nos instructions et en conformité avec le GDPR."
       }
     },
     "section3": {
-      "title": "3. Allgemeine Hinweise und Pflichtinformationen",
+      "title": "3. Informations générales et obligations",
       "dataProtection": {
-        "title": "Datenschutz",
-        "description1": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.",
-        "description2": "Wenn Sie diese Website nutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.",
-        "description3": "Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich."
+        "title": "Protection des données",
+        "description1": "Les opérateurs de ce site prennent très au sérieux la protection de vos données personnelles. Nous traitons vos données personnelles de manière confidentielle et conformément aux réglementations légales sur la protection des données ainsi qu'à cette déclaration de confidentialité.",
+        "description2": "Lorsque vous utilisez ce site web, diverses données personnelles sont collectées. Les données personnelles sont des données qui permettent de vous identifier personnellement. La présente déclaration de confidentialité explique quelles données nous collectons et dans quel but nous les utilisons. Elle explique également comment et à quelles fins cela se produit.",
+        "description3": "Nous tenons à souligner que la transmission de données sur Internet (par exemple, lors de la communication par e-mail) peut présenter des failles de sécurité. Une protection complète des données contre l'accès par des tiers n'est pas possible."
       },
       "responsibleEntity": {
-        "title": "Hinweis zur verantwortlichen Stelle",
-        "description1": "Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
-        "contactDetails": "Anthony Hamon<br />Wickratherstr. 62<br />41363 Jüchen<br />Telefon: 017672373759<br />E-Mail: contact&#64;anthony-hamon.com",
-        "description2": "Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o.ä.) entscheidet."
+        "title": "Informations sur l'entité responsable",
+        "description1": "L'entité responsable du traitement des données sur ce site web est :",
+        "contactDetails": "Anthony Hamon<br />Wickratherstr. 62<br />41363 Jüchen<br />Téléphone : 017672373759<br />E-mail : contact&#64;anthony-hamon.com",
+        "description2": "L'entité responsable est la personne physique ou morale qui, seule ou conjointement avec d'autres, détermine les finalités et les moyens du traitement des données personnelles (par exemple, les noms, adresses e-mail, etc.)."
       },
       "storagePeriod": {
-        "title": "Speicherdauer",
-        "description": "Sofern innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie eine rechtmäßige Löschung beantragen oder Ihre Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z.B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Wegfall dieser Gründe."
+        "title": "Durée de conservation",
+        "description": "À moins qu'une période de conservation plus spécifique n'ait été indiquée dans cette déclaration de confidentialité, vos données personnelles restent chez nous jusqu'à ce que le but pour lequel elles ont été collectées ne soit plus applicable. Si vous demandez la suppression légale de vos données ou révoquez votre consentement à leur traitement, vos données seront supprimées, à moins que nous n'ayons d'autres raisons légales pour les conserver (par exemple, des obligations de conservation fiscales ou commerciales) ; dans ce cas, la suppression aura lieu après la fin de ces raisons."
       },
       "dataProcessingLegalBases": {
-        "title": "Allgemeine Informationen zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website",
-        "description": "Wenn Sie Ihre Einwilligung zur Verarbeitung Ihrer Daten gegeben haben, erfolgt die Verarbeitung Ihrer personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO, sofern es sich um besondere Kategorien von Daten gemäß Art. 9 Abs. 1 DSGVO handelt. Bei ausdrücklicher Einwilligung zur Übermittlung personenbezogener Daten an Drittländer erfolgt die Datenverarbeitung zusätzlich auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Wenn Sie in die Speicherung von Cookies oder den Zugriff auf Informationen auf Ihrem Gerät eingewilligt haben (z.B. durch Geräte-Fingerprinting), erfolgt die Verarbeitung der Daten zusätzlich auf Grundlage von § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar. Wenn Ihre Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen erforderlich sind, erfolgt die Verarbeitung Ihrer Daten auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO. Weiterhin verarbeiten wir Ihre Daten, sofern dies zur Erfüllung einer rechtlichen Verpflichtung gemäß Art. 6 Abs. 1 lit. c DSGVO erforderlich ist. Die Datenverarbeitung kann auch auf Grundlage unserer berechtigten Interessen gemäß Art. 6 Abs. 1 lit. f DSGVO erfolgen. Entsprechende Rechtsgrundlagen sind in den jeweiligen Abschnitten dieser Datenschutzerklärung einzeln benannt."
+        "title": "Informations générales sur les bases juridiques du traitement des données sur ce site web",
+        "description": "Si vous avez donné votre consentement au traitement de vos données, le traitement de vos données personnelles se fait sur la base de l'article 6, paragraphe 1, point a du RGPD ou de l'article 9, paragraphe 2, point a du RGPD, s'il s'agit de catégories particulières de données selon l'article 9, paragraphe 1 du RGPD. En cas de consentement explicite à la transmission de données personnelles vers des pays tiers, le traitement des données est également basé sur l'article 49, paragraphe 1, point a du RGPD. Si vous avez consenti à l'enregistrement de cookies ou à l'accès à des informations sur votre appareil (par exemple, via le fingerprinting), le traitement des données repose également sur l'article 25, paragraphe 1 de la loi allemande sur les télécommunications et la protection des données (TTDSG). Le consentement peut être révoqué à tout moment. Si vos données sont nécessaires à l'exécution d'un contrat ou à des mesures précontractuelles, leur traitement se base sur l'article 6, paragraphe 1, point b du RGPD. De plus, nous traitons vos données si cela est nécessaire pour remplir une obligation légale conformément à l'article 6, paragraphe 1, point c du RGPD. Le traitement des données peut également être basé sur notre intérêt légitime conformément à l'article 6, paragraphe 1, point f du RGPD. Les bases juridiques correspondantes sont mentionnées dans les sections pertinentes de cette déclaration de confidentialité."
       },
       "recipientsOfPersonalData": {
-        "title": "Empfänger von personenbezogenen Daten",
-        "description": "Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen externen Stellen zusammen. Teilweise ist es notwendig, personenbezogene Daten an diese externen Stellen zu übermitteln. Wir geben personenbezogene Daten nur an externe Stellen weiter, wenn dies im Rahmen der Vertragserfüllung erforderlich ist, wenn wir gesetzlich dazu verpflichtet sind (z.B. Mitteilung an Steuerbehörden), wenn ein berechtigtes Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO an der Übermittlung besteht oder wenn eine andere Rechtsgrundlage die Übermittlung der Daten erlaubt. Bei der Nutzung von Auftragsverarbeitern geben wir personenbezogene Daten unserer Kunden nur auf Grundlage eines gültigen Vertrags zur Auftragsverarbeitung weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag zur gemeinsamen Verarbeitung abgeschlossen."
+        "title": "Destinataires des données personnelles",
+        "description": "Dans le cadre de nos activités, nous collaborons avec diverses entités externes. Il est parfois nécessaire de transmettre des données personnelles à ces entités. Nous ne transmettons les données personnelles à des tiers que si cela est nécessaire pour l'exécution du contrat, si nous y sommes légalement obligés (par exemple, communication aux autorités fiscales), si un intérêt légitime selon l'article 6, paragraphe 1, point f du RGPD existe, ou si une autre base légale autorise la transmission des données. Lors de l'utilisation de sous-traitants, nous transmettons les données personnelles de nos clients uniquement sur la base d'un contrat valide de traitement de données. En cas de traitement conjoint, un contrat de traitement conjoint est conclu."
       },
       "withdrawalOfConsent": {
-        "title": "Widerruf Ihrer Einwilligung zur Datenverarbeitung",
-        "description": "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt."
+        "title": "Révocation de votre consentement au traitement des données",
+        "description": "De nombreuses opérations de traitement des données ne sont possibles qu'avec votre consentement explicite. Vous pouvez révoquer à tout moment un consentement déjà donné. La légalité du traitement des données effectué jusqu'à la révocation n'est pas affectée par cette dernière."
       },
       "rightToObject": {
-        "title": "Widerspruchsrecht bei Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)",
-        "description1": "Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Die jeweilige Rechtsgrundlage, auf der eine Verarbeitung beruht, finden Sie in dieser Datenschutzerklärung. Wenn Sie widersprechen, werden wir Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO).",
-        "description2": "Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Widersprechen Sie, so werden Ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO)."
+        "title": "Droit d'opposition à la collecte de données dans des cas particuliers et à la publicité directe (article 21 du RGPD)",
+        "description1": "Si le traitement des données est fondé sur l'article 6, paragraphe 1, points e ou f du RGPD, vous avez le droit de vous opposer à tout moment, pour des raisons tenant à votre situation particulière, au traitement de vos données personnelles ; cela vaut également pour le profilage basé sur ces dispositions. La base juridique sur laquelle repose le traitement est indiquée dans la présente déclaration de confidentialité. Si vous vous y opposez, nous ne traiterons plus vos données personnelles concernées, à moins que nous puissions démontrer des motifs légitimes et impérieux pour le traitement qui prévalent sur vos intérêts, droits et libertés, ou pour la constatation, l'exercice ou la défense de droits en justice (opposition conformément à l'article 21, paragraphe 1 du RGPD).",
+        "description2": "Si vos données personnelles sont traitées à des fins de publicité directe, vous avez le droit de vous opposer à tout moment au traitement de vos données personnelles à des fins de publicité ; cela vaut également pour le profilage dans la mesure où il est lié à cette publicité directe. Si vous vous y opposez, vos données personnelles ne seront plus utilisées à des fins de publicité directe (opposition conformément à l'article 21, paragraphe 2 du RGPD)."
       },
       "rightToLodgeComplaint": {
-        "title": "Beschwerderecht bei der zuständigen Aufsichtsbehörde",
-        "description": "Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe."
+        "title": "Droit de recours auprès de l'autorité de contrôle compétente",
+        "description": "En cas de violation du RGPD, les personnes concernées ont un droit de recours auprès d'une autorité de contrôle, notamment dans l'État membre où se trouve leur résidence habituelle, leur lieu de travail ou le lieu de l'infraction présumée. Le droit de recours existe sans préjudice de tout autre recours administratif ou judiciaire."
       },
       "rightToDataPortability": {
-        "title": "Recht auf Datenübertragbarkeit",
-        "description": "Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist."
+        "title": "Droit à la portabilité des données",
+        "description": "Vous avez le droit de faire remettre les données que nous traitons automatiquement sur la base de votre consentement ou en exécution d'un contrat, soit à vous, soit à un tiers, dans un format couramment utilisé et lisible par machine. Si vous demandez la transmission directe des données à un autre responsable, cela ne sera fait que dans la mesure où cela est techniquement possible."
       },
       "sslTlsEncryption": {
-        "title": "SSL- bzw. TLS-Verschlüsselung",
-        "description": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von \"http://\" auf \"https://\" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
+        "title": "Cryptage SSL ou TLS",
+        "description": "Ce site utilise le cryptage SSL ou TLS pour des raisons de sécurité et pour protéger la transmission de contenus confidentiels, tels que les commandes ou les demandes que vous nous envoyez en tant qu'opérateur du site. Une connexion cryptée se reconnaît au fait que la ligne d'adresse du navigateur passe de \"http://\" à \"https://\" et à l'icône de cadenas dans la barre de votre navigateur. Lorsque le cryptage SSL ou TLS est activé, les données que vous nous transmettez ne peuvent pas être lues par des tiers."
       },
       "informationCorrectionDeletion": {
-        "title": "Auskunft, Berichtigung und Löschung",
-        "description": "Im Rahmen der geltenden gesetzlichen Bestimmungen haben Sie jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden."
+        "title": "Droit d'accès, de rectification et de suppression",
+        "description": "Dans le cadre des dispositions légales applicables, vous avez le droit d'obtenir à tout moment des informations gratuites sur vos données personnelles stockées, leur origine et les destinataires, ainsi que sur la finalité du traitement des données, et, le cas échéant, un droit de rectification ou de suppression de ces données. Pour cela, ainsi que pour d'autres questions sur le sujet des données personnelles, vous pouvez nous contacter à tout moment à l'adresse indiquée dans les mentions légales."
       },
       "rightToRestriction": {
-        "title": "Recht auf Einschränkung der Verarbeitung",
-        "description1": "Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:",
+        "title": "Droit à la limitation du traitement",
+        "description1": "Vous avez le droit de demander la limitation du traitement de vos données personnelles. Pour cela, vous pouvez nous contacter à tout moment à l'adresse indiquée dans les mentions légales. Le droit à la limitation du traitement existe dans les cas suivants :",
         "list": {
-          "1": "Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.",
-          "2": "Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.",
-          "3": "Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.",
-          "4": "Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen."
+          "1": "Si vous contestez l'exactitude de vos données personnelles stockées chez nous, nous aurons besoin de temps pour le vérifier. Pendant la durée de la vérification, vous avez le droit de demander la limitation du traitement de vos données personnelles.",
+          "2": "Si le traitement de vos données personnelles est/était illégal, vous pouvez demander la limitation de l'utilisation des données au lieu de leur suppression.",
+          "3": "Si nous n'avons plus besoin de vos données personnelles mais que vous en avez besoin pour exercer, défendre ou faire valoir des droits en justice, vous avez le droit de demander la limitation du traitement de vos données personnelles au lieu de leur suppression.",
+          "4": "Si vous avez fait opposition conformément à l'article 21, paragraphe 1 du RGPD, une balance entre vos intérêts et les nôtres doit être effectuée. Tant que les intérêts en présence ne sont pas encore déterminés, vous avez le droit de demander la limitation du traitement de vos données personnelles."
         },
-        "description2": "Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden."
+        "description2": "Si vous avez limité le traitement de vos données personnelles, ces données - à l'exception de leur stockage - ne pourront être traitées qu'avec votre consentement ou pour faire valoir, exercer ou défendre des droits en justice, ou pour protéger les droits d'une autre personne physique ou morale, ou pour des raisons d'intérêt public important de l'Union européenne ou d'un État membre."
       },
       "oppositionToAdvertisingEmails": {
-        "title": "Widerspruch gegen Werbe-E-Mails",
-        "description": "Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor."
+        "title": "Opposition aux e-mails publicitaires",
+        "description": "L'utilisation des coordonnées publiées dans le cadre de l'obligation des mentions légales pour l'envoi de publicité et d'informations non expressément sollicitées est interdite par la présente. Les opérateurs de ce site se réservent expressément le droit de prendre des mesures légales en cas d'envoi non sollicité d'informations publicitaires, par exemple sous forme de spams."
       }
     },
     "section4": {

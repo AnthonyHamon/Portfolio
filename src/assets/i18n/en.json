@@ -12,7 +12,7 @@
   },
   "aboutMeComponent": {
     "aboutMe": "About me",
-    "description": "Hi! I'm a Front-end developer living in Jüchen, Germany. I love to bring ideas and vision to life, with precision and passion. Coding grows continuously and I'm looking forward to continue growing with it, with a Junior developer job position.",
+    "description": "Hi! I'm a Frontend developer living in Jüchen, Germany. I love to bring ideas and vision to life, with precision and passion. Coding grows continuously and I'm looking forward to continue growing with it, with a Junior developer job position.",
     "developing": "Developing is building, and I love it. Being it virtual or in real, I do my best to build everything the best possible way and I feel always proud to see a project growing and look at the final result.",
     "interests": "I have a lot of interests! Read, take a walk, playing games (board and video games), just discuss about the world. I love activities making me thinking. I make sport and I'm always happy to be with my family. And naturally, I love coding!"
   },
@@ -54,7 +54,9 @@
     "privacyPolicy": "privacy policy",
     "acceptPrivacyPolicy": "and agree to the processing of my data as outlined.",
     "privacyValidation": "Please accept the privacy policy to send your message.",
-    "sendButton": "SEND"
+    "sendButton": "SEND",
+    "contactCallToAction": "Let us work&#10;together",
+    "contactCallToActionDescription": "You like my work and have a new project or a problem to solve? Feel free to contact me through this form and just let us talk! I would be happy to help you realise your wishes !"
   },
   "userFeedback": {
     "messageSent": "your message was sent successfully",

@@ -1,6 +1,5 @@
 {
   "headerComponent": {
-    "home": "Startseite",
     "about": "Über mich",
     "skills": "Fähigkeiten",
     "projects": "Projekte",
@@ -8,13 +7,12 @@
   },
   "landingPageComponent": {
     "I": "Ich bin",
-    "helloWorld": "Hallo Welt!",
     "ambitionedDeveloper": "ambitionierter Entwickler!",
     "getInTouch": "Kontaktiere mich!"
   },
   "aboutMeComponent": {
     "aboutMe": "Über mich",
-    "description": "Hallo! Ich bin ein Front-End-Entwickler aus Jüchen, Deutschland. Ich liebe es, Ideen und Visionen mit Präzision und Leidenschaft zum Leben zu erwecken. Programmieren wächst kontinuierlich und ich freue mich darauf, weiter mit ihm zu wachsen, mit einer Junior-Entwickler-Position.",
+    "description": "Hallo! Ich bin ein Frontend-Entwickler aus Jüchen, Deutschland. Ich liebe es, Ideen und Visionen mit Präzision und Leidenschaft zum Leben zu erwecken. Programmieren wächst kontinuierlich und ich freue mich darauf, weiter mit ihm zu wachsen, mit einer Junior-Entwickler-Position.",
     "developing": "Entwickeln bedeutet Bauen, und ich liebe es. Sei es virtuell oder real, ich gebe mein Bestes, um alles bestmöglich zu bauen, und ich bin immer stolz darauf, ein Projekt wachsen zu sehen und das Endergebnis zu betrachten.",
     "interests": "Ich habe viele Interessen! Lesen, spazieren gehen, Spiele spielen (Brett- und Videospiele), einfach über die Welt diskutieren. Ich liebe Aktivitäten, die mich zum Nachdenken bringen. Ich treibe Sport und bin immer glücklich, mit meiner Familie zusammen zu sein. Und natürlich liebe ich das Programmieren!"
   },
@@ -56,7 +54,9 @@
     "privacyPolicy": "Datenschutzrichtlinie",
     "acceptPrivacyPolicy": "gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
     "privacyValidation": "Bitte akzeptiere die Datenschutzrichtlinie, um deine Nachricht zu senden.",
-    "sendButton": "SENDEN"
+    "sendButton": "SENDEN",
+    "contactCallToAction": "Lass uns zusammen&#10;arbeiten",
+    "contactCallToActionDescription": "meine Arbeit gefählst dir und Du hast einen neuen Projekt oder einen Problem zu lösen? Zögere nicht mich über den Kontakformular zu kontaktieren und lass uns reden! Ich würde mich freuen deine Wünsche wahr werden zu lassen!"
   },
   "userFeedback": {
     "messageSent": "Ihr Nachricht wurde erfolgreich abgeschickt",
