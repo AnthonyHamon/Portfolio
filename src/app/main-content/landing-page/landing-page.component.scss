@@ -8,13 +8,14 @@
 
  main {
      @include f.flex(center, start);
+     flex-direction: column;
      background-color: black;
  }
 
  .above-the-fold {
      @include f.flex(center, end);
      position: relative;
-     background-image: url(../../../assets/img/bg-landpage.jpg);
+     background-image: url(../../../assets/img/bg-landpage.png);
      background-position: bottom right;
      background-size: auto;
      background-repeat: no-repeat;
@@ -135,6 +136,14 @@
      .above-the-fold>img {
          margin-top: unset;
      }
+
+     .hello-world-ctn {
+        .hello-world {
+            >div {
+                font-size: 26px;
+            }
+        }
+    }
  }
 
  @media screen and (max-height:800px) {
@@ -143,7 +152,7 @@
          gap: 24px;
 
          >img {
-             height: 350px !important;
+             height: 400px !important;
          }
      }
 
@@ -170,6 +179,14 @@
      .above-the-fold {
          gap: 0px;
      }
+
+     .hello-world-ctn {
+        .hello-world {
+            >a{
+                display: none;
+            }
+        }
+    }
  }
 
  @media screen and (max-height:600px) {
