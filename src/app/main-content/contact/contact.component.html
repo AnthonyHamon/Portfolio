@@ -48,9 +48,16 @@
             <button [disabled]="contactForm.invalid" type="submit">{{ "contactComponent.sendButton" | translate }}<img
                     src="assets/icons/email-send-white.png" alt=""></button>
         </form>
-        <a class="back-to-top-arrow" href="#"><img src="assets/icons/curved-arrow-right-to-top-icon-white.png" alt=""></a>
+        <div class="contact-form-call-to-action">
+            <div>
+                <h3 [innerHTML]="'contactComponent.contactCallToAction' | translate"></h3>
+                <p>{{ "contactComponent.contactCallToActionDescription" | translate }}</p>
+            </div>
+            <a class="back-to-top-arrow" href="#"><img src="assets/icons/curved-arrow-right-to-top-icon-white.png" alt=""></a>
+        </div>
     </section>
 
+   
     @if (contactForm.submitted && userFeedbackPopup) {
     <app-user-feedback [positiveUserFeedback]="positiveUserFeedback"></app-user-feedback>
     }
