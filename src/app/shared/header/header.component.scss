@@ -119,6 +119,10 @@ header {
     header {
         .header {
             gap: 12px;
+
+            >section a img{
+                width: 200px;
+            }
         }
 
         .navbar {
@@ -129,8 +133,7 @@ header {
             }
         }
 
-        .navbar.fr,
-        .navbar.de {
+        .navbar {
             a {
                 font-size: 22px;
             }

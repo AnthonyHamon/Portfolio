@@ -187,6 +187,20 @@
     .contact .back-to-top-arrow {
         display: none;
     }
+
+    .contact{
+        >section{
+            flex-direction: column-reverse;
+            align-items: flex-start;
+
+            >form, .contact-form-call-to-action{
+                min-width: unset;
+                max-width: unset;
+                min-height: unset;
+                max-height: unset;
+            }
+        }
+    }
 }
 
 
