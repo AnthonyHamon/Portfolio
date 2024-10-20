@@ -1,22 +1,28 @@
 @use '../../../../styles.scss' as f;
 @use '../../../app.component.scss' as shadow;
 
+:host{
+    position: absolute;
+    bottom: 0;
+
+    @media screen and (height < 740px ) {
+        display: none;
+    }
+}
+
 main {
-    @include f.flex(center, start)
+    @include f.flex(center, start);
 }
 
 .social-links-ctn {
     @include f.flex(start);
-    background-color: rgb(244, 244, 246);
-    @include shadow.top-shadow();
-
+    background-color: black;
     width: 100%;
     gap: 42px;
-    position: absolute;
     max-width: f.$maxWidth;
 
     >hr {
-        border-color: black;
+        border-color: white;
         border-width: 2px;
         border-style: solid;
         width: 80px;
@@ -31,7 +37,7 @@ main {
 
         >a {
             @include f.flex(start);
-            color: black;
+            color: white;
 
             >img:hover {
                 transition: all .225s ease-in-out;
