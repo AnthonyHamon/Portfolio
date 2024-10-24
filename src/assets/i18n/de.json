@@ -12,9 +12,9 @@
   },
   "aboutMeComponent": {
     "aboutMe": "Über mich",
-    "description": "Hallo! Ich bin ein Frontend-Entwickler aus Jüchen, Deutschland. Ich liebe es, Ideen und Visionen mit Präzision und Leidenschaft zum Leben zu erwecken. Programmieren wächst kontinuierlich und ich freue mich darauf, weiter mit ihm zu wachsen, mit einer Junior-Entwickler-Position.",
-    "developing": "Entwickeln bedeutet Bauen, und ich liebe es. Sei es virtuell oder real, ich gebe mein Bestes, um alles bestmöglich zu bauen, und ich bin immer stolz darauf, ein Projekt wachsen zu sehen und das Endergebnis zu betrachten.",
-    "interests": "Ich habe viele Interessen! Lesen, spazieren gehen, Spiele spielen (Brett- und Videospiele), einfach über die Welt diskutieren. Ich liebe Aktivitäten, die mich zum Nachdenken bringen. Ich treibe Sport und bin immer glücklich, mit meiner Familie zusammen zu sein. Und natürlich liebe ich das Programmieren!"
+    "description": "Hallo, ich bin Anthony, ein Frontend Entwickler aus Jüchen, Deutschland. Meine Leidenschaft liegt darin, benutzerfreundliche und stabile Anwendungen zu entwickeln. Ich arbeite detailorientiert und achte darauf, dass jedes Projekt auf soliden Grundlagen basiert und reibungslos funktioniert.",
+    "developing": "Mit Angular und JavaScript konzentriere ich mich darauf, Anwendungen zu entwickeln, die nicht nur gut aussehen, sondern auch sauber und effizient funktionieren. Für mich liegt der Fokus auf langfristig und tragfähigen Lösungen, bei denen jedes Detail zählt. Ich bin stolz darauf, Projekte mit Sorgfalt und Beständigkeit voranzutreiben.",
+    "interests": "Neben der Programmierung schätze ich Aktivitäten, die mich inspirieren und entspannen. Ob beim Lesen, bei Brett- und Videospielen oder beim Austausch mit anderen – ich genieße es, mich mit Themen auseinanderzusetzen, die sowohl Kreativität als auch analytisches Denken erfordern. Diese Mischung aus präzisem Arbeiten und Neugier treibt mich beruflich wie privat an."
   },
   "skillsComponent": {
     "mySkills": "Meine Fähigkeiten",

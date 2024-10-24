@@ -12,9 +12,9 @@
   },
   "aboutMeComponent": {
     "aboutMe": "About me",
-    "description": "Hi! I'm a Frontend developer living in Jüchen, Germany. I love to bring ideas and vision to life, with precision and passion. Coding grows continuously and I'm looking forward to continue growing with it, with a Junior developer job position.",
-    "developing": "Developing is building, and I love it. Being it virtual or in real, I do my best to build everything the best possible way and I feel always proud to see a project growing and look at the final result.",
-    "interests": "I have a lot of interests! Read, take a walk, playing games (board and video games), just discuss about the world. I love activities making me thinking. I make sport and I'm always happy to be with my family. And naturally, I love coding!"
+    "description": "Hello, I am Anthony, a Frontend Developer from Jüchen, Germany. My passion lies in developing user-friendly and stable applications. I work with attention to detail and ensure that every project is built on solid foundations and operates smoothly.",
+    "developing": "Using Angular and JavaScript, I create solutions that are not only visually appealing but also impress with clean and efficient code. My focus is on sustainable projects that have a clear structure and can be continuously developed. Care and precision are particularly important to me in order to deliver high-quality results.",
+    "interests": "In addition to programming, I appreciate activities that inspire me and provide relaxation. Whether reading, playing board and video games, or engaging in discussions with others, I enjoy delving into topics that require both creativity and analytical thinking. This blend of precise work and curiosity drives me both professionally and personally."
   },
   "skillsComponent": {
     "mySkills": "My Skills",

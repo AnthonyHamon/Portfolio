@@ -12,9 +12,9 @@
   },
   "aboutMeComponent": {
     "aboutMe": "À propos de moi",
-    "description": "Salut! Je suis un développeur Frontend vivant à Jüchen, en Allemagne. J'aime donner vie aux idées et aux visions, avec précision et passion. Le code croît continuellement et j'ai hâte de continuer à grandir avec lui, grâce à un poste de développeur junior.",
-    "developing": "Développer, c'est construire, et j'adore ça. Que ce soit virtuel ou réel, je fais de mon mieux pour tout construire de la meilleure façon possible et je suis toujours fier de voir un projet évoluer et de regarder le résultat final.",
-    "interests": "J'ai beaucoup d'intérêts! Lire, me promener, jouer à des jeux (jeux de société et jeux vidéo), discuter du monde. J'aime les activités qui me font réfléchir. Je fais du sport et je suis toujours heureux d'être avec ma famille. Et naturellement, j'aime coder!"
+    "description": "Bonjour, je m'appelle Anthony, développeur Frontend à Jüchen, en Allemagne. Ma passion réside dans le développement d'applications conviviales et stables. Je travaille avec une attention particulière aux détails et m'assure que chaque projet repose sur des bases solides et fonctionne de manière fluide.",
+    "developing": "Avec Angular et JavaScript, je crée des solutions qui ne sont pas seulement esthétiques, mais qui impressionnent également par un code propre et efficace. Mon objectif est de réaliser des projets durables qui ont une structure claire et peuvent être développés de manière continue. L'attention et la précision sont particulièrement importantes pour moi afin de fournir des résultats de haute qualité.",
+    "interests": "En plus de la programmation, j'apprécie les activités qui m'inspirent et me permettent de me détendre. Que ce soit la lecture, les jeux de société et vidéo, ou les discussions avec d'autres, j'apprécie d'approfondir des sujets qui nécessitent à la fois créativité et réflexion analytique. Ce mélange de travail précis et de curiosité me motive tant sur le plan professionnel que personnel."
   },
   "skillsComponent": {
     "mySkills": "Mes Compétences",
