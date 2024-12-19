@@ -10,12 +10,12 @@ header {
 
     .header {
         @include f.flex(center);
-        padding: 18px 18px 3px 18px;
+        padding: 10px 18px 0 18px;
         position: fixed;
         width: 100%;
         background-color: rgba(244, 244, 246, 0.95);
         z-index: 2;
-        box-shadow: 0px 5px 10px 10px rgba(244, 244, 246, 0.95);
+        box-shadow: 0px 5px 10px 3px rgba(244, 244, 246, 0.95);
 
         >section {
             @include f.flex(space-between, center);
@@ -25,7 +25,7 @@ header {
 
             >a {
                 >img {
-                    width: 250px;
+                    width: 220px;
                     height: auto;
                     cursor: pointer;
                 }
