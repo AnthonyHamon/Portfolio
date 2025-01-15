@@ -48,11 +48,12 @@ export class ProjectComponent {
   @Input() even = false;
   @Input() odd = false;
   @Input() project = {
-    projectName: 'Fantasia Adventure',
-    projectPicture: 'asset/img/projects/f-a-gaming-display.png',
+    projectName: '',
+    projectPicture: '',
+    projectVideo: '',
     liveDemoLink: '',
     githubLink: '',
-    usedTechnologies: 'JavaScript, HTML, CSS',
+    usedTechnologies: '',
     projectDescription: '',
   };
 
