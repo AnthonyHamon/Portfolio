@@ -1,5 +1,7 @@
 <main [ngClass]="{'project-card': true, 'reverse-card': odd}" id="project">
-        <video autoplay preload="auto" muted loop controlList="nodownload"  src="{{project.projectVideo}}"></video>
+        <video #video autoplay muted playsinline preload="auto" loop controlList="nodownload nofullscreen noremoteplayback">
+            <source src="{{project.projectVideo}}" type="video/mp4">
+        </video>
         <section [@slideInRight]="isVisible && even ? 'visible' : 'hidden'" [@slideInLeft]="isVisible && odd ? 'visible' : 'hidden'" [ngClass]="{'project-description': true, 'reverse-project-description': odd}">
             <div>
                 <h3>{{ project.projectName }}</h3>
