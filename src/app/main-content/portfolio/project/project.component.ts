@@ -7,7 +7,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-project',
   standalone: true,
-  imports: [CommonModule, PortfolioComponent, TranslateModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss',
   animations: [

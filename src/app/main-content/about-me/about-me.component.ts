@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-about-me',
   standalone: true,
-  imports: [SocialLinksBarComponent, TranslateModule, CommonModule],
+  imports: [TranslateModule, CommonModule],
   templateUrl: './about-me.component.html',
   styleUrl: './about-me.component.scss',
 })

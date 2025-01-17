@@ -6,11 +6,10 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-user-feedback',
   standalone: true,
-  imports: [ContactComponent],
+  imports: [],
   templateUrl: './user-feedback.component.html',
   styleUrl: './user-feedback.component.scss',
   animations: [slideInRightAnimation({translate: '200%', duration: 2000})]
-  // animations: [slideInRightAnimation({duration: 2000})]
 })
 
 export class UserFeedbackComponent implements OnInit {
