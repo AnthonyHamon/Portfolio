@@ -31,7 +31,9 @@
  }
 
  #personal-name {
-     font-size: 48px;
+    display: inline-flex;
+    min-width: 13.125rem;
+    font-size: 48px;
  }
 
  .hello-world-ctn {
