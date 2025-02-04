@@ -34,7 +34,8 @@
                 </div>
                 <div class="privacy-policy-check-ctn">
                     <div>
-                        <input #checkBox="ngModel" [(ngModel)]="checked" type="checkbox" name="checkBox" required>
+                        <label for="checkBox"></label>
+                        <input id="checkBox" #checkBox="ngModel" [(ngModel)]="checked" type="checkbox" name="checkBox" required>
                         <p>{{ "contactComponent.isRead" | translate }} <a href="privacy-policy" target="_blank">{{
                                 "contactComponent.privacyPolicy" | translate }}</a> {{
                             "contactComponent.acceptPrivacyPolicy" | translate }}
@@ -53,7 +54,7 @@
                 <h3 [innerHTML]="'contactComponent.contactCallToAction' | translate"></h3>
                 <p>{{ "contactComponent.contactCallToActionDescription" | translate }}</p>
             </div>
-            <a class="back-to-top-arrow" href="#"><img src="assets/icons/curved-arrow-right-to-top-icon-white.png" alt=""></a>
+            <a aria-label="back to the top arrow" class="back-to-top-arrow" href="#"><img src="assets/icons/curved-arrow-right-to-top-icon-white.png" alt=""></a>
         </div>
     </section>
 
