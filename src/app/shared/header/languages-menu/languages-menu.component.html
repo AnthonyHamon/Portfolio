@@ -1,10 +1,10 @@
 
-<button mat-button [matMenuTriggerFor]="menu"><img [src]="'assets/icons/' + currentLanguage + '-flag-24px.png'"
+<button [attr.aria-label]="'current language is ' + currentLanguage" mat-button [matMenuTriggerFor]="menu"><img [src]="'assets/icons/' + currentLanguage + '-flag-24px.png'"
         alt=""></button>
 <mat-menu #menu="matMenu">
     @for (lang of languages; track lang; let index = $index) {
     @if (!lang.isSelected) {
-    <button (click)="switchLanguage(lang.language, index)" mat-menu-item><img
+    <button aria-label="translate to (lang.language)" (click)="switchLanguage(lang.language, index)" mat-menu-item><img
             [src]="'assets/icons/' + lang.language + '-flag-24px.png'" alt=""></button>
     }
     }

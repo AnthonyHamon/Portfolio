@@ -1,4 +1,4 @@
 <section>
     <label>{{ 'languagesComponent.' + language.language | translate }}</label>
-    <mat-progress-bar class="language-progress-bar" [mode]="mode" [color]="color" value="{{language.percentage}}" [bufferValue]="bufferValue"></mat-progress-bar>
+    <mat-progress-bar [attr.aria-label]="'my level in' + language" class="language-progress-bar" [mode]="mode" [color]="color" value="{{language.percentage}}" [bufferValue]="bufferValue"></mat-progress-bar>
 </section>
