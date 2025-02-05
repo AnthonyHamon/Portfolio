@@ -18,24 +18,24 @@ export class LanguagesMenuComponent {
   currentLanguage = 'en';
 
 
-  english = 'assets/icons/en-flag-24px.png';
-  german = 'assets/icons/de-flag-24px.png';
-  french = 'assets/icons/fr-flag-24px.png';
+  english = 'assets/icons/en-flag-24px.svg';
+  german = 'assets/icons/de-flag-24px.svg';
+  french = 'assets/icons/fr-flag-24px.svg';
 
   languages = [
     {
       language: 'en',
-      src: 'assets/icons/en-flag-24px.png',
+      src: 'assets/icons/en-flag-24px.svg',
       isSelected: true
     },
     {
       language: 'de',
-      src: 'assets/icons/de-flag-24px.png',
+      src: 'assets/icons/de-flag-24px.svg',
       isSelected: false
     },
     {
       language: 'fr',
-      src: 'assets/icons/fr-flag-24px.png',
+      src: 'assets/icons/fr-flag-24px.svg',
       isSelected: false
     }
   ]
