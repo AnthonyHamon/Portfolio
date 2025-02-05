@@ -28,7 +28,7 @@ export class SkillsComponent implements OnInit{
   skills = [
     {
       name: 'Angular',
-      image: 'angular.png',
+      image: 'angular.svg',
       link: 'https://angular.dev/',
     },
     {
@@ -43,12 +43,12 @@ export class SkillsComponent implements OnInit{
     },
     {
       name: 'HTML',
-      image: 'html.png',
+      image: 'html.svg',
       link: 'https://html.com/',
     },
     {
       name: 'Firebase',
-      image: 'firebase.png',
+      image: 'firebase.svg',
       link: 'https://firebase.google.com/',
     },
     {
@@ -73,7 +73,7 @@ export class SkillsComponent implements OnInit{
     },
     {
       name: 'Material Design',
-      image: 'material-design.png',
+      image: 'material-design.svg',
       link: 'https://m3.material.io/',
     },
   ];
